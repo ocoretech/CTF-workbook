@@ -14,7 +14,7 @@ Steps:
 
 ![Login](Login.png "d:\CTF Images\VulnForum\Login.png")
 
-![Alt text](image-1.png)
+![User Login](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
 
 * When we click on login, it gives us an error message saying "Invalid username or password".
 
