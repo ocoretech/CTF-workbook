@@ -12,7 +12,8 @@ Steps:
 
 * On the home page, we can see a login button too, so let's try logging with random credentials.
 
-![Login](Login.png "D:\CTF Images\VulnForum\Login.png")
+![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/9760a364-cc75-4d78-9485-d2a2b1f0becf)
+
 
 ![UserLogin](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
 
