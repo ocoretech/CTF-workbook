@@ -12,7 +12,7 @@ Steps:
 
 * On the hope page, we can see a login button too, so let's try logging with random credentials.
 
-![Alt text](D:\CTF Images\VulnForum\Login.png)
+![Alt text](Login.png "Login Image")
 
 ![Alt text](image-1.png)
 
