@@ -101,7 +101,7 @@ Let's write a comment to john for e.g."Hello".
 
 ![JS](IMG.png "D:\CTF Images\VulnForum\IMG.png")
 
-* This was just an example, but what if we send our password change GET request in the form of JS as an Stored XSS.
+* This was just an example, but what if we send our password change GET request in the form of JS as a Stored XSS.
 
 * Go back to burp suite and find the request of password changed in the repeater tab. Now change the hash value of Toby to John's hash value.
 
