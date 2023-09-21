@@ -18,7 +18,7 @@ Steps:
 
 * When we click on login, it gives us an error message saying "Invalid username or password".
 
-* We chech Burp Suite for the post request of login and send it to the repeater.
+* We check Burp Suite for the post request of login and send it to the repeater.
 
 ![Alt text](image-2.png)
 
