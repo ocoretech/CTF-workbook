@@ -12,9 +12,9 @@ Steps:
 
 * On the home page, we can see a login button too, so let's try logging with random credentials.
 
-![Login image](../VulnForum/Login.png")
+![Alt text](image.png)
 
-![Alt text](Login.png "Login Image")
+![Alt text](image-1.png)
 
 * When we click on login, it gives us an error message saying "Invalid username or password".
 
