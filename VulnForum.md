@@ -10,7 +10,7 @@ Steps:
 
 * If we check the comments. we can see toby saying how it's a closed group.
 
-* On the hope page, we can see a login button too, so let's try logging with random credentials.
+* On the home page, we can see a login button too, so let's try logging with random credentials.
 
 ![Login](Login.png "D:\CTF Images\VulnForum\Login.png")
 
