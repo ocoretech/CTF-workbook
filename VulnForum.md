@@ -10,11 +10,11 @@ Steps:
 
 * If we check the comments. we can see toby saying how it's a closed group.
 
-* On the hope page, we can see a login button too, so let's try logging with random credentials.
+* On the home page, we can see a login button too, so let's try logging with random credentials.
 
 ![Alt text](Login.png "Login Image")
 
-![Alt text](image-1.png)
+![Alt text](Login.png "Login Image")
 
 * When we click on login, it gives us an error message saying "Invalid username or password".
 
