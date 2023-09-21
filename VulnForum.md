@@ -35,7 +35,8 @@ Steps:
 * Here you can see the credentials i used for login, and the method used here is local. Let's send the same request again and check the response.
 
 
-![Local](Local.png "D:\CTF Images\VulnForum\Local.png")
+![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/166bb2f0-1ef6-482a-8a87-1f75fc901161)
+
 
 
 * We get the same response with the method "local". Let's change "local" to "remote" and send the same request again.
