@@ -17,7 +17,7 @@ Steps:
 
 * When we click on login, it gives us an error message saying "Invalid username or password".
 
-  ![UserLogin](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
+![UserLogin](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
 
 * We check Burp Suite for the post request of login and send it to the repeater.
 
