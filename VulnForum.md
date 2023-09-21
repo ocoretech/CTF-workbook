@@ -61,7 +61,8 @@ Steps:
 ![Success](Successful.png "D:\CTF Images\VulnForum\Successful.png")
 
 
-![Flag](Flag-1.png "D:\CTF Images\VulnForum\Flag.png")
+![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2d1dca00-5c5d-4f02-a1a3-b9ecb97b3561)
+
 
 * Here on the homepage we can see another comment in the group by John, who is the admin.
 
