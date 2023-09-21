@@ -12,7 +12,7 @@ Steps:
 
 * On the home page, we can see a login button too, so let's try logging with random credentials.
 
-![Alt text](image.png)
+![Login](Login.png)
 
 ![Alt text](image-1.png)
 
