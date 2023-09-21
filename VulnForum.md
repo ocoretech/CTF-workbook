@@ -12,7 +12,7 @@ Steps:
 
 * On the home page, we can see a login button too, so let's try logging with random credentials.
 
-![Login](Login.png "d:\CTF Images\VulnForum\Login.png")
+![Login](Login.png "D:\CTF Images\VulnForum\Login.png")
 
 ![UserLogin](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
 
@@ -20,47 +20,47 @@ Steps:
 
 * We check Burp Suite for the post request of login and send it to the repeater.
 
-![Alt text](image-2.png)
+![GET](<Get Request.png> "D:\CTF Images\VulnForum\Get Request.png")
 
 * Here you can see the credentials i used for login, and the method used here is local. Let's send the same request again and check the response.
 
-![Alt text](image-3.png)
+![Local](Local.png "D:\CTF Images\VulnForum\Local.png")
 
 * We get the same response with the method "local". Let's change "local" to "remote" and send the same request again.
 
-![Alt text](image-4.png)
+![Remote](Remote.png "D:\CTF Images\VulnForum\Remote.png")
 
 * You can see, we got our first flag and a URL. Let's visit this url.
 
-![Alt text](image-6.png)
+![Invalid](Invalid.png "D:\CTF Images\VulnForum\Invalid.png")
 
 * Let's try to find the subdomain of this URL with help of nslookup. We get the domain and visit the website.
 
-![Alt text](image-5.png)
+![Auth](Vulnauth.png "D:\CTF Images\VulnForum\Vulnauth.png")
 
 * Now here we have our second flag. Now let's create an account and and hit enter.
 
-![Alt text](image-7.png)
+![Credentials](Credentials.png "D:\CTF Images\VulnForum\Credentials.png")
 
-![Alt text](image-8.png)
+![Created](Created.png "D:\CTF Images\VulnForum\Created.png")
 
 * Now we go back to the URL, where it says Invalid Domain. Refresh the page and you will get a login page, where you can login with tha same credentials you used to create the new account.
 
 * After logging in, we can create a new user. But before let's go to the home page and click on toby and copy the hash value in the URL.
 
-![Alt text](image-9.png)
+![Hash](<Hash value.png> "D:\CTF Images\VulnForum\Hash value.png")
 
 * Now create the user for toby and paste the hash value in the text box of Remote UUID.
 
-![Alt text](image-10.png)
+![Newuser](Toby.png "D:\CTF Images\VulnForum\Toby.png")
 
 * No go back to the home page and login with these credentials.
 
 * Before logging in, turn intercept on in burp suite, and the press login. You have to change the method to remote and forward it to the login page. Now you are successfully logged in Toby's account and got your third flag.
 
-![Alt text](image-12.png)
+![Success](Successful.png "D:\CTF Images\VulnForum\Successful.png")
 
-![Alt text](image-13.png)
+![Flag](Flag-1.png "D:\CTF Images\VulnForum\Flag.png")
 
 * Here on the homepage we can see another comment in the group by John, who is the admin.
 
