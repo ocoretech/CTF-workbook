@@ -66,11 +66,11 @@ Steps:
 
 * Here on the homepage we can see another comment in the group by John, who is the admin.
 
-* We try to do the same thing to login as john, by creating hi user and login credential, but it doesn't work. 
+* We try to do the same thing to login as John, by creating his user and login credential, but it doesn't work. 
 
 ![John](john.png "D:\CTF Images\VulnForum\john.png")
 
-* Let's head towards the conversation of toby and john.
+* Let's head towards the conversation of Toby and John.
 
 ![Conversation](Convo.png "D:\CTF Images\VulnForum\Convo.png")
 
