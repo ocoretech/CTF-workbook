@@ -12,7 +12,7 @@ Steps:
 
 * On the home page, we can see a login button too, so let's try logging with random credentials.
 
-![Login](Login.png "D:\CTF Images\VulnForum\Login.png")
+Login.png
 
 ![UserLogin](<Login 1.png> "D:\CTF Images\VulnForum\Login 1.png")
 
