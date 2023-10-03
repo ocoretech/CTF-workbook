@@ -116,4 +116,27 @@ Steps:
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1aa125ea-b65a-44b1-9417-fc19cad08ed5)
 
+* Let's head back to index of datacollection. Here you can see that we are given with different certificates, a fullchain containing all the certificates and a private key, let's download them.
+
+* With the use of ncat, we use the fullchain.pem and the privkey.pem as the certificates and key to find out our GET request, host and a X-token.
+
+* Let's head to the host website i.e. www.googletagmaneger.com and use mod loader to add a request header X-token with the value. Now let's change our endpoint to our newly found GET request i.e. /api/poll and hit enter.
+
+* We find another flag here and description saying the latest usernames and passwords. 
+
+* Let's try fuzzing out X-token for a GET request as well as POST request. We find another endpoint called cookie, let's insert that in the url and see what's the result.
+
+* It says Invalid Endpoint, we will try to curl the same POST request and see what content we can get through it. We get here some data in the descryption called Login Cookie. We got the cookie here and also another flag.
+
+* On the googletagmanger website, we try to see if there is a login page, and there is one after searching. Now we don't have the credentials but we we have the authentic cookie.
+
+* So let's put some random credentials here and click on login. Now check burp suite for our login request and send it to the repeater. In the response tab we can't see a different cookie throught which we can try to log in.
+
+* We can try another thing, turn on the intercept on burp suite and check if there is a logout page on the domain. Check the response on burpsuite and here we can see there is a different cookie called "user-login-cookie=deleted.
+
+* Now insert our authentic cookie instead of deleted in the burpsuite and forward that request. And on the domain we have logged in and we can see there is a dashboard containing different usernames and passwords and a delete records button.
+
+* We click on the button and find our final flag with our challenge being solved.
+
+
 
