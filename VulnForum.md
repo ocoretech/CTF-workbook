@@ -52,6 +52,8 @@ Steps:
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/4e849a60-606d-44f0-ae8e-056ed3255b6e)
 
+<figcaption>First Flag found because of File Inclusion Vulnerablity</figcaption>
+
 
 * Let's try to find the subdomain of this URL with help of nslookup. We get the domain and visit the website.
 
