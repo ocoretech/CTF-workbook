@@ -7,7 +7,8 @@ Steps:
 
 * When we land on the page we can see our home page with the URL http://dxmhcfxk.vulnrecruitment.ctfio.com/
 
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/4f379d7d-8b99-40ec-9f5f-9a41ecacc296)
+![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/81b1385b-4086-450d-a929-75c3a3ea6580)
+
 <h2><figcaption>HomePage</figcaption></h2>
 
 
