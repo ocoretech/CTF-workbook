@@ -93,13 +93,14 @@ Steps:
 
 
 * Before logging in, turn intercept on in burp suite, and the press login. You have to change the method to remote and forward it to the login page. Now you are successfully logged in Toby's account and got your third flag.
-  <h2><figcaption>Third flag found by logging in Toby's account</figcaption></h2>
+
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b273659d-386f-4c6f-ad1d-aa5e3b5bec2f)
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/075ade75-c131-4c70-83ee-c4f2dd66e0e7)
+  <h2><figcaption>Third flag found by logging in Toby's account</figcaption></h2>
 
 
 * Here on the homepage we can see another comment in the group by John, who is the admin.
@@ -170,7 +171,7 @@ Steps:
   
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/c0df35ea-c242-474e-b126-d68fb46e9d1c)
- <h2><figcaption>Using Stored XSS for changing the password></h2>
+ <h2><figcaption>Using Stored XSS for changing the password</figcaption></h2>
 
 
 * With the help of this comment, whenever John will send the automated reply, his password will change to "hello123".
