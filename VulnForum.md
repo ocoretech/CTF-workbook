@@ -48,6 +48,8 @@ Steps:
 <figcaption>First Flag found because of File Inclusion Vulnerablity</figcaption>
 
 
+
+
 * You can see, we got our first flag and a URL. Let's visit this url.
 
 
