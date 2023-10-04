@@ -44,8 +44,8 @@ Steps:
 * We get the same response with the method "local". Let's change "local" to "remote" and send the same request again.
 
 
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/e1be963c-7a27-47e9-8054-41a0ab890271 "File Inclusion Vulnerability")
-
+![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/e1be963c-7a27-47e9-8054-41a0ab890271)
+<h2><figcaption>File Inclusion Vulnerability</figcaption></h2>
 
 
 
