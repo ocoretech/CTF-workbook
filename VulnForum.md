@@ -62,6 +62,7 @@ Steps:
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/cc19d407-3439-4342-9873-4eeec70ae942)
+ <h2><figcaption>Flag 2 found on Authentication page</figcaption></h2>
 
 
 * Now here we have our second flag. Now let's create an account and and hit enter.
@@ -92,6 +93,7 @@ Steps:
 
 
 * Before logging in, turn intercept on in burp suite, and the press login. You have to change the method to remote and forward it to the login page. Now you are successfully logged in Toby's account and got your third flag.
+  <h2><figcaption>Third flag found by logging in Toby's account</figcaption></h2>
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b273659d-386f-4c6f-ad1d-aa5e3b5bec2f)
@@ -168,6 +170,7 @@ Steps:
   
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/c0df35ea-c242-474e-b126-d68fb46e9d1c)
+ <h2><figcaption>Using Stored XSS for changing the password></h2>
 
 
 * With the help of this comment, whenever John will send the automated reply, his password will change to "hello123".
@@ -179,6 +182,7 @@ Steps:
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/a40e7304-4039-4148-96ee-c9090243befb)
+ <h2><figcaption>Last flag found with the help of Stored XSS</figcaption></h2>
 
 * And this is where we find our final flag.
   
