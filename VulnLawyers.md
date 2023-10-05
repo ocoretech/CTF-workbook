@@ -19,17 +19,18 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 
 ### **Solution:**
 
-### **1.Reconnaissance**
+### **1. Reconnaissance**
    
    We have to find 6 flags by using our skills, let's jump into it. 
    The website provides a domain to start the challenge.
-   For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move to the next step i.e. brute forcing.
-   Next start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the subdomain. You will find a different URL "http://data.vulnlawyers.co.uk", but we will check it later.  
+   For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move on to the next step i.e. brute forcing.
+   Start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the subdomain. You will find a different URL "http://data.vulnlawyers.co.uk", but we will check it later.  
    The first flag has been found with the help of brute force vulnerability.
 
-### **2. Login Page Discovery**
+### **2. Finding Endpoints**
 
-Now try to find a login page on the website by typing "/login" at the end of the URL. You will be redirected to a denied page, where it says "Access is denied from your IP address".
+With the wordlists provided by hackinghub, use FUZZ tool to find out different endpoints on the domain. Now check for the results, you can see there are five endpoints on the domain. Now see if they work one by one.
+Only one endpoint worked i.e. the login page on the URL. It redirects you to a denied page, where it says "Access is denied from your IP address".
   
   
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b88c36d3-7c3d-40e0-81f5-bdd0a5bf11e3)
@@ -38,16 +39,13 @@ Now try to find a login page on the website by typing "/login" at the end of the
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/aff7639e-8669-4ced-b0cb-ed1ae8b987fb)
 
 
-   * We open Burpsuite and try to look for a GET request with the login page, and we send it to the repeater.
-     
+If you are not being able to login, there are some other ways you can try for example, open Burpsuite and search for a GET request for the login page, and send it to the repeater.
+Send the same request and carefully focus on the response, we find our second flag using burp suite and another endpoint for the login page.   
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/7f788958-b0a1-4c6a-bc7e-eb16c03381b6)
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2247b7de-cacc-468c-b99a-521af77a3a3f)
-
-
-   * After we send the same data, in the response tab, we capture our second flag.
      
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/08ec4318-5579-4d05-8cbc-d9fb649af036)
