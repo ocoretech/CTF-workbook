@@ -54,7 +54,7 @@ Now add that new endpoint to the URL. You find the login page here and two field
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fa1d57be-13b9-471d-aaec-c38a1c8f7b53)
 
-        *Flag 3 found in the new domain*
+        #### Flag 3 found in the new domain
 
 
 
