@@ -7,7 +7,7 @@ Hey folks, in this blog I'm going to share how to get started in CTF(HackingHub)
 
 Before knowing about how things work in CTF let’s first understand what CTF is, what we do in CTF, what is a flag, and how CTF helps you to develop your hacking skills.
 
-Capture the Flag(HackingHub) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. Let' get nto it and start our first challenge.
+Capture the Flag(HackingHub) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. Let' get into it and start our first challenge.
 
 
 ### **CTF Challenges solutions**
@@ -15,17 +15,18 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 ### 1. VulnLawyers 
     https://app.hackinghub.io/vuln-lawyers
    
-   Time to lawyer up! This law firm might be great at protecting your rights but are awful with protecting their website! Find a way into their admin portal. 
+  Objective: Our main purpose is to find a way into their admin portal. 
 
+   Solution:
+
+   ### **Reconnaissance**
    
-   Steps:
-   * We can see the first challenge that is vulnlayers and we have to capture six flags in it.
+We have to find 6 flags by using our skills, let's jump into it. 
+The website provides a domain to start the challenge.
      
-   * To start this challenge we have to start the server and we are redirected to the page called vulnlawyers.co.uk
+   * First thing to do is content discovery with the help of reconnaissance
      
-   * So the first step is reconnaissance i.e. content discovery.
-     
-   * For reconnaissance, we use nslookup so that i can find any type of record on the webpage.
+   * For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move to the next step i.e. brute forcing.
      
    * Next we will start searching for the subdomains with the help of bruteforcing with dnsrecon.
      
