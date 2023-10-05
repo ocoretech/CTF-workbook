@@ -40,7 +40,7 @@ Only one endpoint worked i.e. the login page on the URL. It redirects you to a d
 
 
 If you are not being able to login, there are some other ways you can try for example, open Burpsuite and search for a GET request for the login page, and send it to the repeater.
-Send the same request and carefully focus on the response, we find our second flag using burp suite and another endpoint for the login page.   
+Send the same request and carefully focus on the response, we find the second flag using burp suite and another endpoint for the login page.   
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/7f788958-b0a1-4c6a-bc7e-eb16c03381b6)
 
@@ -50,19 +50,13 @@ Send the same request and carefully focus on the response, we find our second fl
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/08ec4318-5579-4d05-8cbc-d9fb649af036)
 
-
-   
-   * When we found a subdomain with the help of dnsrecon bruteforcing, we also found another URL called : 
-http://data.vulnlawyers.co.uk
+Now add that new endpoint to the URL. You find the login page here and two fields: Username and Password. As you don't have the credentials, we will go back to the newly found URL while using curl i.e. "http://data.vulnlawyers.co.uk". 
 
 
-* We visit that URL and we find our third Flag here.
+### **Finding the Credentials**
 
-  
-* We fuzz the new domain and visit http://data.vulnlawyers.co.uk/users, it gives us our fourth flag and few usernames we can brute force.
-
-  
-* We try brute forcing the usernames with the help of burp suite and find a valid username and password.
+FUZZ the new domain, you find a new endpoint and you visit the website with that enpoint i.e. "users". After visiting we find multiple lawyer names and their email ids along with the fourth flag. We can notice in result that there are five lawyers and their email ids. 
+This can be a huge vulnerabiltiy because we can use burp suite to brute force and find the correct credentials.
 
   
 * We find the password for the user email id i.e. 
