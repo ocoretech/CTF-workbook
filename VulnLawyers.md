@@ -1,7 +1,14 @@
 
 # **CTF Challenges (HackingHub)**
 https://app.hackinghub.io/
-### Capture the Flag(CTF) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. We will start with the first challenge.
+
+
+### Hey folks, in this blog I'm going to share how to get started in CTF(HackingHub) and complete the challenges step by step. Let's jump into it.
+
+Before knowing about how things work in CTF let’s first understand what CTF is, what we do in CTF, what is a flag, and how CTF helps you to develop your hacking skills.
+
+Capture the Flag(HackingHub) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. Let' get nto it and start our first challenge.
+
 
 ### **CTF Challenges solutions**
 
