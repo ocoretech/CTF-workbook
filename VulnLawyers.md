@@ -52,8 +52,8 @@ Send the same request and carefully focus on the response, the second flag has b
 
 Now add that new endpoint to the URL. You find the login page here and two fields: Username and Password. As you don't have the credentials, we will go back to the newly found URL while using curl i.e. "http://data.vulnlawyers.co.uk". After visiting it, you will find the third flag.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fa1d57be-13b9-471d-aaec-c38a1c8f7b53)
-#### Flag 3 found in new domain
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fa1d57be-13b9-471d-aaec-c38a1c8f7b53 'Flag 3 found in new domain')
+
 
 
 ### **Finding the Credentials**
