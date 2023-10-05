@@ -41,11 +41,6 @@ Only one endpoint worked i.e. the login page on the URL. It redirects you to a d
 
 If you are not being able to login, there are some other ways you can try for example, open Burpsuite and search for a GET request for the login page, and send it to the repeater.
 Send the same request and carefully focus on the response, the second flag has been found using burp suite and another endpoint for the login page.   
-
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/7f788958-b0a1-4c6a-bc7e-eb16c03381b6)
-
-
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2247b7de-cacc-468c-b99a-521af77a3a3f)
      
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/08ec4318-5579-4d05-8cbc-d9fb649af036)
