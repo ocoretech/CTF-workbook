@@ -12,7 +12,7 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 
 ### **CTF Challenges solutions**
 
-### 1. VulnLawyers 
+### 1. VulnLawyers [VulnLawyers](https://app.hackinghub.io/vuln-lawyers)
     https://app.hackinghub.io/vuln-lawyers
    
 ### **Objective:** Our main purpose is to find a way into their admin portal. 
