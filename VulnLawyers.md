@@ -3,7 +3,7 @@
 https://app.hackinghub.io/
 ### Capture the Flag(CTF) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. We will start with the first challenge.
 
-## CTF Challenges solutions
+### CTF Challenges solutions
 
 ### 1. VulnLawyers 
     https://app.hackinghub.io/vuln-lawyers
