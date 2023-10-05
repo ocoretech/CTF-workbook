@@ -15,26 +15,20 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 ### 1. VulnLawyers 
     https://app.hackinghub.io/vuln-lawyers
    
-  Objective: Our main purpose is to find a way into their admin portal. 
+### **Objective:** Our main purpose is to find a way into their admin portal. 
 
-   Solution:
+### **Solution:**
 
-   ### **Reconnaissance**
+### **Reconnaissance**
    
-We have to find 6 flags by using our skills, let's jump into it. 
-The website provides a domain to start the challenge.
-     
-   * First thing to do is content discovery with the help of reconnaissance
-     
-   * For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move to the next step i.e. brute forcing.
-     
-   * Next we will start searching for the subdomains with the help of bruteforcing with dnsrecon.
-     
-   * After finding the sub-domains, we use curl tool to see what's the data inside the sub-domain.
+   We have to find 6 flags by using our skills, let's jump into it. 
+   The website provides a domain to start the challenge.
+   For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move to the next step i.e. brute forcing.
+   Next start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the sub-domain. The first flag has been found with the help of brute force vulnerability.
 
-   * We find our first flag in this sub-domain.
+
      
-   * After that we try and see if there is a login page on the website, but we are redirected to a denied page, where it says "Access is denied from your IP address".
+After that we try and see if there is a login page on the website, but we are redirected to a denied page, where it says "Access is denied from your IP address".
   
   
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b88c36d3-7c3d-40e0-81f5-bdd0a5bf11e3)
