@@ -19,16 +19,17 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 
 ### **Solution:**
 
-### **Reconnaissance**
+### **1.Reconnaissance**
    
    We have to find 6 flags by using our skills, let's jump into it. 
    The website provides a domain to start the challenge.
    For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move to the next step i.e. brute forcing.
-   Next start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the sub-domain. The first flag has been found with the help of brute force vulnerability.
+   Next start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the subdomain. You will find a different URL "http://data.vulnlawyers.co.uk", but we will check it later.  
+   The first flag has been found with the help of brute force vulnerability.
 
+### **2. Login Page Discovery**
 
-     
-After that we try and see if there is a login page on the website, but we are redirected to a denied page, where it says "Access is denied from your IP address".
+Now try to find a login page on the website by typing "/login" at the end of the URL. You will be redirected to a denied page, where it says "Access is denied from your IP address".
   
   
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b88c36d3-7c3d-40e0-81f5-bdd0a5bf11e3)
