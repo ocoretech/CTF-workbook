@@ -3,7 +3,7 @@
 https://app.hackinghub.io/
 
 
-## **Hey folks, in this blog I'm going to share how to get started in CTF(HackingHub) and complete the challenges step by step. Let's jump into it.**
+Hey folks, in this blog I'm going to share how to get started in CTF(HackingHub) and complete the challenges step by step. Let's jump into it.
 
 Before knowing about how things work in CTF let’s first understand what CTF is, what we do in CTF, what is a flag, and how CTF helps you to develop your hacking skills.
 
