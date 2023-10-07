@@ -1,36 +1,33 @@
 ## [Hackbookagram](https://app.hackinghub.io/hackbook-agram) 
 
 
-### **Objective** Usernames and passwords are somehow being stolen from hackbookagram. Find out how they are being stolen, locate the hackers servers and trash their cache of usernames and passwords.
-
-Steps: 
-
-* When we land on the page we can see our home page with the URL http://kwnvej8w.hackbookagram.com/ 
-
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/98cb4781-d86a-418e-b54d-bc46bafe3316)
+### **Objective:**  Usernames and passwords are somehow being stolen from hackbookagram. Find out how they are being stolen, locate the hackers servers and trash their cache of usernames and passwords.
 
 
-* Let's see what they have given us in the Page Source
+### **Solution:**
+
+
+Check the Page Source of the hompage
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/dbaf8745-032e-412d-88e9-022465b3d588)
 
 
-* We can see something unusual in te source code. They have provided us a google tag and and a URL with the called googletagmaneger. Now the spelling is wrong here so seems like something must be there on that website. We open the link and find some javascript which is hard to understand. 
+You can see something unusual in te source code. They have provided us a google tag and and a URL with the called googletagmaneger. Open the link and you will find some javascript. 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/87b8c35a-d548-4249-afb3-6959edcb4288)
 
 
-* We copy the whole script and try to beautify it a little.
+Copy the whole script and try to beautify it a little with help of online free tools.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2af1eb88-5eaa-4337-8bcd-981333327202)
 
 
-* We can see here a URL of Hackbookagram with the login page and we find an endpoint "event" within the googlemaneger tag. Let's visit this tag with the endpoint.
+Here you find a URL of Hackbookagram with the login page and an endpoint "event" within the googlemaneger tag. Visit this tag with the endpoint.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/a1c6cfed-a689-423e-aa3d-35d65e2c5652)
 
 
-* We get a blank white page on this website and nothing else. One thing we can think about is that, maybe there are more parameters than "e" in the website. So let's try to search for our parameters by Fuzzing googletagmaneger.
+You will get a blank white page on this website and nothing else. One thing about this is that, maybe there are more parameters than "e" in the website. So try to search for our parameters by Fuzzing googletagmaneger.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1578b0e3-f49d-478d-8b45-3fe1a1fb5ac6)
 
