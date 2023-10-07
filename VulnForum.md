@@ -1,5 +1,5 @@
 
-## VulnForum(https://app.hackinghub.io/vuln-forum)
+## [VulnForum](https://app.hackinghub.io/vuln-forum)
   
    
 Come and join the conversation on this vulnerable forum. Can you take over the admin account and view the secret messages? 
