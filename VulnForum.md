@@ -9,7 +9,7 @@
 ### **1. Reconnaissance**
 
 
-On the landing page you can see some public forums, and some notices and some comments from Toby. If you open the comments section, you can see that toby is talking about how it's a closed group. On the home page, there is a login button too, try logging with random credentials.
+On the landing page you can see some public forums, and some notices and some comments from Toby. If you open the comments section, you can see that Toby is talking about how it's a closed group. On the home page, there is a login button too, try logging with random credentials.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/9760a364-cc75-4d78-9485-d2a2b1f0becf)
@@ -57,7 +57,7 @@ Try to find the subdomain of this URL with help of nslookup and visit the websit
                             Flag 2 found on Authentication page
 
 
-* Here you found the second flag. Now create an account and hit enter.
+Here you found the second flag. Now create an account and hit enter.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/afc7644a-8d32-413b-95c3-f2e1781fc69f)
@@ -108,7 +108,7 @@ Head towards the conversation of Toby and John.
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/d253139f-e41a-4d78-8098-92d2fb00b4fc)
 
 
-Toby has added a new feature to allow you to change the password. Change toby's password through the profile settings.
+Toby has added a new feature to allow you to change the password. Change Toby's password through the profile settings.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/e68f5e6f-de8f-4c9e-8a40-92d305aa3475)
@@ -138,7 +138,7 @@ On Github there's a configuration file. There are some tags given which can be u
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2e3a74cd-0e8a-4db5-96e3-449ce55b7a2f)
 
 
-Head over to the comments tab, and you can use 'img' as a javascript to send a comment to john.
+Head over to the comments tab, and you can use 'img' as a javascript to send a comment to John.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/f3a61bbf-982e-462a-bd34-fd9c99fe3c75)
