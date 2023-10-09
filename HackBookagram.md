@@ -42,13 +42,14 @@ You will find your parameter named "include". Let's see what result we get after
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/4cf8c97a-9262-4d93-b3ef-87408f14e3e0)
 
+                              Flag 1 found by using the tool FUZZ
 
 First flag was found and some directories leading to a php file. Check the IP address of googletagmanager.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/48f3eb61-8174-45cb-bc1b-65df71ad0ea6)
 
-                              Flag 1 found by using the tool FUZZ
+                              
 
 Visit the IP address and you will find a webpage that says "Welcome to nginx".
 
