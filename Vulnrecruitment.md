@@ -24,6 +24,9 @@ You will find an interesting URL, two IPs and two hosts. Now using curl, try to 
 
                                Flag 1 found on the new subdomain
 
+
+### **2. Searching for endpoints** 
+
 Try using fuzzing to find endpoints for the domain. It would take some time to search as there are numerous records to go through. After some time, you can check, the result displays three endpoints: css, js, and staff.
 
 Fuzz "staff" endpoint because the other endpoints aren't working
@@ -35,6 +38,8 @@ Add the endpoint "portal" to the staff page of our domain.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/17aaea8c-238d-4f23-8b52-db80546923d2)
 
+
+### **3. Brute Force Attack** 
  
 By adding "portal" to the staff page redirects us to staff login page, try logging in with the three users on the page and see if it logs in. It says incorrect password. Check for the login request in burp suite.
 
@@ -69,6 +74,8 @@ Login into her account and there is a question given, until you don't answer cor
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b33cb6cb-5173-4ff3-add8-761d55ec988e)
 
+
+### **4. Searching for Amelia's favourite pub**
 
 You find some coordinates of a place by fuzzing. Those coordinates lead to a pub called " The New Welcome Sailor". We will try this name as an answer for our question. You will find your next flag after logging in and an uploads sections where it says download the listing.
 
