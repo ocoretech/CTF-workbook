@@ -63,7 +63,7 @@ With "robots.txt" you will find a secret directory. Insert it in the URL and wai
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f1c90a1b-8c88-45ec-9d68-cc007dfb2135)
 
 
-                                Flag 4 found in the directory "robots.txt"
+                                Flag 4 found in the directory secret directory
 
 
 ### **2. Logging in Admin URL**
