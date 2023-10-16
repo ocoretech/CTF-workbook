@@ -37,7 +37,7 @@ The URL includes a XML file which consists a directory named "flag.txt". Include
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2b62f1c4-e2ca-4125-b70e-d8bb6c7928d7)
 
                             
-                            Flag 2 found in specified directory in XML File
+                            Flag 2 found in a specified directory in XML File
 
 
 Use dnsrecon to find out subdomains. You will find two subdomains but both of them will have no access. Us "theHarvester" tool for more information of our server.
