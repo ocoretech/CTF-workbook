@@ -108,7 +108,7 @@ Click on the billing users and you will find the seventh flag with the username 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/bc087a2b-ab11-492f-89c5-3790ec0f365d)
 
-                                Flag 7 found by logging in Secret Portal subdomain
+                                Flag 7 found by logging in Secret Portal 
 
 Head towards the billing subdomain we found during dnsrecon and try logging in with the credentials. It says that the password is invalid, use brute force and find ou the correct password.
 
