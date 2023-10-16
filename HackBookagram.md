@@ -1,7 +1,8 @@
 ## [Hackbookagram](https://app.hackinghub.io/hackbook-agram) 
 
 
-### **Objective:**  Usernames and passwords are somehow being stolen from hackbookagram. Find out how they are being stolen, locate the hackers servers and trash                     their cache of usernames and passwords.
+### **Objective:** 
+Usernames and passwords are somehow being stolen from hackbookagram. Find out how they are being stolen, locate the hackers servers and trash                their cache of usernames and passwords.
 
 
 ### **Solution:**
