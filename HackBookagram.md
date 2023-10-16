@@ -76,7 +76,8 @@ Come back to the googletag and the parameter "e" and try to use XSS on it. You n
 
 Paste the base 64 form in the googletag and check for any GET request.
 
-![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/6eaf37c0-6781-42ee-b530-5eab0d862f38)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/1f53bdf9-6bb4-4cec-a8b3-60e4257cd7bc)
+
 
 
 This is the GET request where we can see there is a different IP address given, visit that IP address.
