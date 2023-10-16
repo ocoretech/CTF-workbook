@@ -58,12 +58,7 @@ Include this directory in the URL and you will find your fourth flag with the he
 
 ### **Brute Force attack**
 
-Come back to the login page and use any credentials to login.
-
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fde4b823-405f-450c-a869-c0079ad1718a)
-
-
-You can observe that it says the password is invalid, which means that the username is correct but you have to find out the correct password. With the help of burp suite, use brute force attack to find out the correct password.
+Come back to the login page and use any credentials to login. You can observe that it says the password is invalid, which means that the username is correct but you have to find out the correct password. With the help of burp suite, use brute force attack to find out the correct password.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f1675eaf-6a9d-4361-a6c6-2a8999e59f9f)
 
