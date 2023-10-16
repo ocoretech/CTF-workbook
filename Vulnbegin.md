@@ -5,7 +5,7 @@ Make your way through the challenge capturing the flags.
 
 ### **Solution**
 
-Start the Vulnbegin challenge, you will see a landing page where it' written "Welcome There's not much here".
+Start the Vulnbegin challenge, you will see a landing page where it's written "Welcome There's not much here".
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/91660f88-9883-4039-ae3a-81dd71bd74da)
