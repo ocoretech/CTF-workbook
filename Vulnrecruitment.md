@@ -1,6 +1,7 @@
 ## [Vulnrecruitment](https://app.hackinghub.io/vuln-recruitment)
 
-### **Objective:**   Dig into the past staff members to work out how to get in.
+### **Objective:**   
+Dig into the past staff members to work out how to get in.
 
 ### **Solution**
 
