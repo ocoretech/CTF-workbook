@@ -19,7 +19,7 @@ You will find your first flag in the page source.
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b1ede416-b423-494d-bd24-94c7c61b0cda)
 
 
-                                Flag 1 foung in the page source
+                                Flag 1 found in the page source
 
 
 Along with the flag you will find a CSS file in the source code, open the file.
