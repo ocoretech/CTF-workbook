@@ -63,6 +63,8 @@ Come back to the login page and use any credentials to login. You can observe th
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f1675eaf-6a9d-4361-a6c6-2a8999e59f9f)
 
 
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9cf63c4a-ae47-4f28-aae6-48abd449c0c2)
+
 The password has been found, now use this password to login on the login page. 
 
 
