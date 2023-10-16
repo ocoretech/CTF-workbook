@@ -1,4 +1,4 @@
-## VulnBegin
+## [VulnBegin](https://app.hackinghub.io/vuln-begin)
 
 ### **Objective**
 Make your way through the challenge capturing the flags.
