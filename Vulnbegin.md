@@ -79,17 +79,20 @@ You will find three endpoints : "env", "login", "logout". Search for information
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b4e77f84-8092-460a-a943-f9f961d34f61)
 
 
-You will find a X-token and your fifth flag with the help of fuzzing.
+You will find a X-token and your sixth flag with the help of fuzzing.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/83aa5670-89e2-4ad2-b629-cc2f57020f67)
 
 
-Now add this X-token value in the cookie section of the page inspection and use the Mod header plugin to include this token value. Head back to the first subdomain you found and now it says that "User is authenticated" and you will find the sixth flag with the help of the endpoint "env".
+                            Flag 6 found with the help of fuzzing
+
+
+Now add this X-token value in the cookie section of the page inspection and use the Mod header plugin to include this token value. Head back to the first subdomain you found and now it says that "User is authenticated" and you will find the seventh flag with the help of the endpoint "env".
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/08ea6556-e4ea-48f3-8afe-ba7649bde5af)
 
-                            Flag 6 found with the help of X-Token
+                            Flag 7 found with the help of the endpoint "env"
 
 
 Use "ffuf" to find more directories using the X-token as the cookie. You will find two directories : "user" and "robots.txt". Include them in the URL.
@@ -107,19 +110,19 @@ Now include the other endpoint "user".
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/973b8278-1f68-4642-a9c6-cd67cb3d6cb5)
 
 
-By entering different directories provided in the user directory, we find our seventh flag with the help of Fuzzing the X-token.
+By entering different directories provided in the user directory, we find our eighth flag with the help of Fuzzing the X-token.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/0b583fca-31a6-49f9-940d-1a44f6af45ac)
 
 
-                                    Flag 7 found by fuzzing X-Token
+                                    Flag 8 found by fuzzing X-Token
 
 
 Try searching for any other users by changing the user id.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b94f9051-85ba-44b8-8c06-ee1dd74fba06)
 
-                            Flag found by changing directory to User id 5
+                            Flag 9 found by changing directory to User id 5
 
 
 By searching for different users, we find the last flag with help of user id five.
