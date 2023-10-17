@@ -32,7 +32,13 @@ Use each of these directories to find out information regarding flags.
                                       Flag 2 found by new directory
 
 
-Flag 2 will be found in the "stats" directory along with the file system information. Now use sitemap on burp suite to go through all the directories. There is one uniques directory called "upload" check the files available in it.
+Flag 2 has been found in the "stats" directory along with the file system information. 
+
+
+### **2. Usage of Sitemap**
+
+
+Now use sitemap on burp suite to go through all the directories. There is one unique directory called "upload" check the files available in it.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a88e71fe-9b82-4ab8-8876-8a5b88f1e0d0)
 
@@ -50,7 +56,10 @@ The third flag has been found with the help of Site map. Along with the flag, th
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/23dd4199-a944-4583-a84a-3f1b03466e57)
 
 
-Sign up on this newsletter. You will recieve an email regarding your signup. In the email, they hav given a URL to confirm our subscription. The hash in the link sent via email has a relation with the number provided before it.
+### **3. Changing the hash value**
+
+
+Sign up on this newsletter. You will recieve an email regarding your signup. In the email, they have given a URL to confirm our subscription. The hash in the link sent via email has a relation with the number provided before it.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/26aaa000-6908-4707-9341-f7e5b425bacb)
 
@@ -63,7 +72,12 @@ Try changing the number to 8 and the hash value related to it.
                                 Flag 4 found by changing the hash value and the id number
 
 
-The fourth flag has been found with the help of changing the hash value. It also provides us with an email. Send an email to simon.boswell.osm86x8t@vulncommerce.co.uk with the login link. 
+The fourth flag has been found with the help of changing the hash value. 
+
+### **4. Social Engineering Attack**
+
+
+It also provides us with an email. Send an email to simon.boswell.osm86x8t@vulncommerce.co.uk with the login link. 
 This will act as a social engineering attack. After few minuites you will get to see the name "Simon" in the login page.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/0ed8236a-4a65-48fb-94b9-8ff8b106c635)
