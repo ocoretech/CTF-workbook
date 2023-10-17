@@ -11,7 +11,7 @@ Start the Vulnbegin challenge, you will see a landing page where it's written "W
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/91660f88-9883-4039-ae3a-81dd71bd74da)
 
 
-### **Reconnaissance**
+### **1. Reconnaissance**
 
 Use nslookup tool to search for any extra information we can get from our domain i.e. vulnbegin.co.uk. With the help of nslookup, you will find your first flag, but to find the subdomains, use dnsrecon brute force.
 
@@ -35,7 +35,7 @@ Here you can see that eleven hosts have been found, go through each of them by v
 
 You can see that the third flag has been found with the help of "theHarvester" tool.
 
-### **Searching for Endpoints**
+### **2. Searching for Endpoints**
 
 After finding the third flag, search for different endpoints using "ffuf" tool. You will find some endpoints which you can insert it in the URL.
 There are two main endpoints "cpadmin" and "robots.txt". 
@@ -56,7 +56,7 @@ Include this directory in the URL and you will find your fourth flag with the he
 
                                 Flag 4 found by fuzzing disallowed directory
 
-### **Brute Force attack**
+### **3. Brute Force attack**
 
 Come back to the login page and use any credentials to login. You can observe that it says the password is invalid, which means that the username is correct but you have to find out the correct password. With the help of burp suite, use brute force attack to find out the correct password.
 
@@ -73,7 +73,7 @@ The password has been found, now use this password to login on the login page.
                                 Flag 5 found by brute force attack
 
 
-By logging in you will find the fifth flag here with the help of brute forcing. Inspect the page and you will find a token value. Include this token value while fuzzing it to find more endpoints.
+By logging in you will find the fifth flag here with the help of brute forcing.   Inspect the page and you will find a token value. Include this token value while fuzzing it to find more endpoints.
 You will find three endpoints : "env", "login", "logout". Search for information in each endpoint by inserting them in the URL.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b4e77f84-8092-460a-a943-f9f961d34f61)
