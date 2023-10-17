@@ -53,7 +53,7 @@ Now add that new endpoint to the URL. You find the login page here and two field
 
 
 
-### **Finding the Credentials**
+### **3. Finding the Credentials**
 
 FUZZ the new domain, you find a new endpoint and you visit the website with that enpoint i.e. "users". After visiting we find multiple lawyer names and their email ids along with the fourth flag. You can notice in result that there are five lawyers and their email ids. 
 This can be a huge vulnerabiltiy because you can use burp suite to brute force and find the correct credentials.
