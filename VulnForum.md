@@ -27,6 +27,9 @@ Check Burp Suite for a POST request of login and send it to the repeater.
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/913512fa-c260-4c37-a75b-f2addc64cfe6)
 
 
+### **2. File inclusion attack**
+
+
 You can observe the credentials i used for login, and the method used here is local. Send the same request again and check the response.
 
 
@@ -57,7 +60,7 @@ Try to find the subdomain of this URL with help of nslookup and visit the websit
                             Flag 2 found on Authentication page
 
 
-Here you found the second flag. Now create an account and hit enter.
+Here you find the second flag. Now create an account and hit enter.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/afc7644a-8d32-413b-95c3-f2e1781fc69f)
@@ -66,7 +69,7 @@ Here you found the second flag. Now create an account and hit enter.
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/182f2135-25cc-4152-858b-32e0e0f69cb6)
 
 
-### 2. **Logging in as Toby**
+### 3. **Logging in as Toby**
 
 
 Go back to the URL, where it says Invalid Domain. Refresh the page and you will get a login page, where you can login with tha same credentials you used to create the new account.
@@ -107,6 +110,8 @@ Head towards the conversation of Toby and John.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/d253139f-e41a-4d78-8098-92d2fb00b4fc)
 
+### **4. Password Change Function**
+
 
 Toby has added a new feature to allow you to change the password. Change Toby's password through the profile settings.
 
@@ -136,6 +141,9 @@ On Github there's a configuration file. There are some tags given which can be u
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2e3a74cd-0e8a-4db5-96e3-449ce55b7a2f)
+
+
+### **5. Javascript**
 
 
 Head over to the comments tab, and you can use 'img' as a javascript to send a comment to John.
