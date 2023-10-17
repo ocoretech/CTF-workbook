@@ -54,6 +54,9 @@ A third subdomain has been found, visit that subdomain and you will find your th
                                 Flag 3 found using theHarvester tool
 
 
+### **2. Finding endpoints**
+
+
 With the help of "ffuf" tool, search for directories/endpoints.
 There are multiple endpoints provided in the reseult, use all of them in the server and look for which one provides you the information.
 
@@ -66,7 +69,7 @@ With "robots.txt" you will find a secret directory. Insert it in the URL and wai
                                 Flag 4 found in the directory secret directory
 
 
-### **2. Logging in Admin URL**
+### **3. Logging in Admin URL**
 
 By using the directory "server", it redirects you to a login page, use any random credentials then check for your "server" request in burp suite and send it to the repeater. Send the same request and check the response, you will find the fifth flag with the help of burp suite. You will aslo find a directory which leads to a secret admin login portal. But we will get to that later.
 
@@ -102,7 +105,7 @@ You will successfully login in with the credentials.
 
 
 
-### **3. Logging in Billing URL**
+### **4. Logging in Billing URL**
 
 Click on the billing users and you will find the seventh flag with the username and the password for the server status portal.
 
@@ -132,7 +135,7 @@ It says API error, so try and look for any GET requests through request bin. You
                                     Flag 9 found in "api" endpoint
 
 
-### **4. Admin Subdomain Fuzzing**
+### **5. Admin Subdomain Fuzzing**
 
 Head towards the admin subdomain you found during dnsrecon and use the mod header plugin to input a X-token value.
 
