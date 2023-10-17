@@ -33,6 +33,9 @@ Here you find a URL of Hackbookagram with the login page and an endpoint "event"
 
 You will get a blank white page on this website and nothing else. One thing about this is that, maybe there are more parameters than "e" in the website. So try to search for other parameters by fuzzing googletagmaneger.
 
+### **2. Finding parameters**
+
+
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1578b0e3-f49d-478d-8b45-3fe1a1fb5ac6)
 
 
@@ -68,6 +71,8 @@ Here you can paste the directories for the php file. You will get a 404 error, s
 
                                 Flag 2 found with the use of ssl endpoint
  
+
+### **3. Performing XSS**
 
 
 Come back to the googletag and the parameter "e" and try to use XSS on it. You need to insert a username and password value. First create a payload by using Cyber Chef. Let's use image tag as a payload for XSS. 
@@ -105,6 +110,9 @@ Here you can see that we have found some username and password. Also a source ca
 Check the source code for the source "/js/private.js" and open it on the URL.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/d287fe24-b902-4bcd-804f-8fd1832b80b8)
+
+
+### **4. Changing the DNS Server**
 
 
 There are two endpoints given here but we will focus on the DNS endpoint. You can change the dns server to your own dns server to check the content and the requests. Head back to burp suite and include the endpoint to the ip address and change it to your server.
