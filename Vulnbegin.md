@@ -13,17 +13,19 @@ Start the Vulnbegin challenge, you will see a landing page where it's written "W
 
 ### **1. Reconnaissance**
 
-Use nslookup tool to search for any extra information we can get from our domain i.e. vulnbegin.co.uk. With the help of nslookup, you will find your first flag, but to find the subdomains, use dnsrecon brute force.
+Use nslookup tool to search for any extra information we can get from our domain i.e. vulnbegin.co.uk (nslookup -type=any vulnbegin.co.uk 8.8.8.8). With the help of nslookup, you will find your first flag, but to find the subdomains, use dnsrecon brute force.
 
                                                     Flag 1 found by using nslookup
 
 
-With the help of dnsrecon, a subdomain has been found. Visit that subdomain and you will find your second flag. You will also notice on the subdomain where it says "User not Authenticated". Try using theHarvester tool to find out more subdomains or more information regarding the flags.
+With the help of dnsrecon, a subdomain has been found (dnsrecon -d vulnbegin.co.uk -D CTF/subdomain.txt -t brt). Visit that subdomain and you will find your second flag. You will also notice on the subdomain where it says "User not Authenticated". Try using theHarvester tool to find out more subdomains or more information regarding the flags (theHarvester -d vulnbegin.co.uk -b all).
 
                                                     Flag 2 found using dnsrecon
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/249fd214-5cf2-4f6b-a27d-36dad72f075f)
+
+
 
 Here you can see that eleven hosts have been found, go through each of them by visiting the URLs. 
 
@@ -37,13 +39,13 @@ You can see that the third flag has been found with the help of "theHarvester" t
 
 ### **2. Searching for Endpoints**
 
-After finding the third flag, search for different endpoints using "ffuf" tool. You will find some endpoints which you can insert it in the URL.
-There are two main endpoints "cpadmin" and "robots.txt". 
+After finding the third flag, search for different endpoints using "ffuf" tool (ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u http://vulnbegin.co.uk/FUZZ). You will find some endpoints which you can insert it in the URL. There are two main endpoints "cpadmin" and "robots.txt". 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b427b85f-4ec0-4709-abff-efdc624ee366)
 
 
 Use "robots.txt" endpoint in the URL. It provides us with a directory called "/secret_d1rect0y/". 
+
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/755b8637-ea5d-4b37-86b3-dd7bdb6d11a6)
 
@@ -87,7 +89,7 @@ You will find a X-token and your sixth flag with the help of fuzzing.
                             Flag 6 found with the help of fuzzing
 
 
-Now add this X-token value in the cookie section of the page inspection and use the Mod header plugin to include this token value. Head back to the first subdomain you found and now it says that "User is authenticated" and you will find the seventh flag with the help of the endpoint "env".
+Now add the X-token value in the cookie section of the page inspection and use the Mod header plugin to include this token value. Head back to the first subdomain you found and now it says that "User is authenticated" and you will find the seventh flag with the help of the endpoint "env".
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/08ea6556-e4ea-48f3-8afe-ba7649bde5af)
