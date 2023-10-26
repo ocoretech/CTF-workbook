@@ -76,7 +76,7 @@ Here you find the second flag on the new authentication website found during nsl
 Go back to the URL, where it says Invalid Domain. Refresh the page and it will display a login page, you can login with tha same credentials which you used to create the new account.
 
 
-After logging in, create a new user. Before creating a user, head back to the home page and click on the link highlighted on Toby's name and copy the hash value in the URL.
+Head back to the home page and click on the hyperlink highlighted on Toby's name and copy the hash value in the URL. 
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/274d7b37-b714-4f27-b4ac-12571d229213)
