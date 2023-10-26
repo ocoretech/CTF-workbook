@@ -16,26 +16,26 @@ Check the page source of the homepage.
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/dbaf8745-032e-412d-88e9-022465b3d588)
 
 
-You can see something unusual in the source code. They have provided us a URL called googletagmaneger. Open the link and you will find some javascript. 
+You can see something unusual in the source code. They have provided us a URL called googletagmaneger (https://www.googletagmaneger.com/gtag/js?id=UA-978312237). Open the link and you will find some javascript. 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/87b8c35a-d548-4249-afb3-6959edcb4288)
 
 
-Copy the whole script and try to beautify it a little with help of online free tools for example ( .
+Copy the whole script and try to beautify it a little with help of online free tools for example JS beauty is an online free tool to beautify the script.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2af1eb88-5eaa-4337-8bcd-981333327202)
 
 
-Here you find a URL of Hackbookagram with the login page and an endpoint "event" within the googlemaneger tag. Visit this tag with the endpoint.
+Here you find a URL of Hackbookagram with the login page and an endpoint named "event" within the googlemaneger tag. Visit this tag with the endpoint.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/a1c6cfed-a689-423e-aa3d-35d65e2c5652)
 
 
-You will get a blank white page on this website and nothing else. One thing about this is that, maybe there are more parameters than "e" in the website. So try to search for other parameters by fuzzing googletagmaneger.
+You will get a blank white page, on this website and nothing else. One thing about this is that, maybe there are more parameters than "e" in the website. So try to search for other parameters by fuzzing googletagmaneger.
 
 ### **2. Finding parameters**
 
-
+Use the command : ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u 'https://www.googletagmaneger.com/event?FUZZ=hello' 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1578b0e3-f49d-478d-8b45-3fe1a1fb5ac6)
 
 
@@ -48,7 +48,7 @@ You will find your parameter named "include". Let's see what result we get after
 
                               Flag 1 found by using the tool FUZZ
 
-First flag was found and some directories leading to a php file. Check the IP address of googletagmanager.
+First flag was found with the help of endpoint "include" with some directories leading to a php file. Check the IP address of googletagmanager. To know what is the IP address of googletagmanger, perform a nslookup using 'nslookup -type=any googletagmanager.com'  
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/48f3eb61-8174-45cb-bc1b-65df71ad0ea6)
@@ -60,7 +60,7 @@ Visit the IP address and you will find a webpage that says "Welcome to nginx".
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/747c6937-9aea-46e9-be89-a27d10657cdb)
 
 
-Here you can paste the directories for the php file. You will get a 404 error, so check the other directories. You find one directory called "datacollection". Try fuzzing it and find out what all content it includes. Some information has been found, try opening them on the URL. Every endpoint is giving a 404 error except the ssl parameter.
+Here you can paste the directories found durring the first flag for the php file. You will get a 404 error, so check the other directories one by one. You will find one directory called "datacollection". Start up fuff scanning yo scan the directory "datacollection". You will find directories, try opening them on the URL. Every directory is giving a 404 error except the ssl parameter.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/bd3c845e-c27b-46ee-b2a3-bb91fd6e5e2c)
 
@@ -75,12 +75,12 @@ Here you can paste the directories for the php file. You will get a 404 error, s
 ### **3. Performing XSS**
 
 
-Come back to the googletag and the parameter "e" and try to use XSS on it. You need to insert a username and password value. First create a payload by using Cyber Chef. Let's use image tag as a payload for XSS. 
+Come back to the googletag and the endpoint "e" and use cross site scripting on it. You need to insert a username and password value and a request bin url to check for the GET request. First create a payload by using Cyber Chef. Let's use "image" tag as a payload for XSS. 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/76b08714-7979-4a05-b74b-05204f54cd1d)
 
 
-Paste the base 64 form in the googletag and check for any GET request.
+Paste the base 64 form in the googletag and check for any GET request in the the Request bin .
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/1f53bdf9-6bb4-4cec-a8b3-60e4257cd7bc)
 
@@ -98,7 +98,7 @@ Here we got our third flag and a button called "Test Connection", hit the button
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/f74cc87b-9b92-458c-8ecb-3971cbfa3a17)
 
 
-Send the request to repeater and in the request tab you can see that they have said there is a node called ns1. It must be a router and trying to connect somewhere. You can try to include different common IP addresses instead of the node value and check for the response.
+Send the request to the repeater and in it lies a node called ns1. It must be a router and trying to connect somewhere. You can try to include different common IP addresses instead of the node value and check for the response.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1db6b2f1-796c-4a79-bc38-048570da8e3d)
 
@@ -115,7 +115,7 @@ Check the source code for the source "/js/private.js" and open it on the URL.
 ### **4. Changing the DNS Server**
 
 
-There are two endpoints given here but we will focus on the DNS endpoint. You can change the dns server to your own dns server to check the content and the requests. Head back to burp suite and include the endpoint to the ip address and change it to your server.
+There are two endpoints given here but focus on the DNS endpoint. You can change the dns server to your own dns server to check the content and the requests. Head back to burp suite and include the endpoint to the ip address and change it to your server.
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/1aa125ea-b65a-44b1-9417-fc19cad08ed5)
 
@@ -125,17 +125,17 @@ Head to the host website i.e. www.googletagmaneger.com and use mod loader to add
                                                 Flag 4 found by using private key
 
 
-Try fuzzing out X-token for a GET request as well as POST request. You find another endpoint called cookie, insert that in the url and check for the results.
+Start up ffuf for X-token for a GET request as well as POST request. You find another endpoint called cookie, insert that in the url and check for the results.
 
-It says Invalid Endpoint, try using curl on the same POST request and see what content you can find through it. You will find some data in the descryption called "Login Cookie". You will find the cookie here and the fifth flag.
+It says Invalid Endpoint, try using the command curl on the same POST request and see what content you can find through it. You will find data in the description called "Login Cookie". You will find the cookie here and the fifth flag.
 
                                                 Flag 5 found by fuzzing the X-token
 
-On the googletagmanger website, try to see if there is a login page, and there is one after searching. Now we don't have the credentials but we we have the authentic cookie. So insert some random credentials here and click on login. Now check burp suite for our login request and send it to the repeater. In the response tab we can't see a different cookie through which we can try to log in.
+On the googletagmanger website, try to see if there is a login page, and there is one after searching. Now we don't have the credentials but we have the authentic cookie. So insert some random credentials here and click on login. Now check burp suite for our login request and send it to the repeater. In the response tab we can't see a different cookie through which we can try to log in.
 
 You can try another thing, turn on the intercept on burp suite and check if there is a logout page on the domain. Check the response on burpsuite and here you can see that there is a different cookie called "user-login-cookie=deleted". Now insert our authentic cookie instead of "deleted" in the burpsuite and forward that request. On the domain we have logged in and we can see there is a dashboard containing different usernames and passwords and a delete records button.
 
-Click on the button and you will find your final flag with the challenge being solved
+Click on the "Delete Records" button and you will find your final flag with the challenge being solved
 
 
 
