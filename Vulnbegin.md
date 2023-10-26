@@ -13,7 +13,7 @@ Start the Vulnbegin challenge, you will see a landing page where it's written "W
 
 ### **1. Reconnaissance**
 
-Use nslookup tool to search for any extra information we can get from our domain i.e. vulnbegin.co.uk (nslookup -type=any vulnbegin.co.uk 8.8.8.8). With the help of nslookup, you will find your first flag, but to find the subdomains, use dnsrecon brute force.
+Use nslookup tool to search for any extra information we can get from our domain i.e. vulnbegin.co.uk (nslookup -type=any vulnbegin.co.uk 8.8.8.8). With the help of nslookup, you will find your first flag, but to find the subdomains, use brute force by dnsrecon.
 
                                                     Flag 1 found by using nslookup
 
