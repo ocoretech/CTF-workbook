@@ -21,7 +21,7 @@ You can see something unusual in the source code. They have provided us a URL ca
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/87b8c35a-d548-4249-afb3-6959edcb4288)
 
 
-Copy the whole script and try to beautify it a little with help of online free tools.
+Copy the whole script and try to beautify it a little with help of online free tools for example ( .
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/2af1eb88-5eaa-4337-8bcd-981333327202)
 
