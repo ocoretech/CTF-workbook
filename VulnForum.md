@@ -36,7 +36,7 @@ You can observe the credentials i used for login, and the method used here is lo
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/166bb2f0-1ef6-482a-8a87-1f75fc901161)
 
 
-You will get the same response with the method "local". Let's change "local file inclusion" to "remote file inclusion"(RFI) and send the same request again.
+You will get the same response with the method "local". Let's change "Local file inclusion" to "Remote file inclusion"(RFI) and send the same request again.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/e1be963c-7a27-47e9-8054-41a0ab890271)
