@@ -12,7 +12,7 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 
 ### **CTF Challenges solutions**
 
-### 1. [VulnLawyers](https://app.hackinghub.io/vuln-lawyers)
+### **[VulnLawyers](https://app.hackinghub.io/vuln-lawyers)**
     https://app.hackinghub.io/vuln-lawyers
    
 ### **Objective:** Our main purpose is to find a way into their admin portal. 
@@ -21,16 +21,18 @@ Capture the Flag(HackingHub) is a type of information security competition that 
 
 ### **1. Reconnaissance**
    
-   We have to find 6 flags by using our skills, let's jump into it. 
-   The website provides a domain to start the challenge.
-   For reconnaissance, use nslookup to find any type of record on the webpage. If the result doesn't show any useful information, move on to the next step i.e. brute forcing.
-   Start searching for the subdomains with the help of bruteforcing with dnsrecon. After finding the sub-domains, use curl for extracting the data from the subdomain. You will find a different URL "http://data.vulnlawyers.co.uk", but we will check it later.  
-   The first flag has been found with the help of brute force vulnerability.
+The website provides a domain to start the challenge. For reconnaissance, use nslookup tool and the command: (nslookup -type=any vulnlawyers.co.uk)  to find any type of record on the webpage. If the result doesn't show any useful information, move on to the next step i.e. brute forcing. 
+
+Start searching for the subdomains with the help of brute force attack with dnsrecon(dnsrecon -d vulnlawyers.co.uk -D CTF/subdomains.txt -t brt). After finding the subdomains, use curl tool for extracting the data from the subdomain. 
+The results will provide you with the first flag and a new URL "http://data.vulnlawyers.co.uk", but we will check into that later.  
+
+
+                                                Flag 1 found with the hekp of dnsrecon tool
+   
 
 ### **2. Finding Endpoints**
 
-With the wordlists provided by hackinghub, use FUZZ tool to find out different endpoints on the domain. Now check for the results, you can see there are five endpoints on the domain. Now see if they work one by one.
-Only one endpoint worked i.e. the login page on the URL. It redirects you to a denied page, where it says "Access is denied from your IP address".
+With the wordlists provided by hackinghub, start up "ffuf" tool to find out different endpoints on the domain. The command will work as following: (ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u vulnlawyers.co.uk/FUZZ).  Now check for the results, you can see there are five endpoints on the domain. Now see if they work one by one. Only one endpoint worked i.e. the login page on the URL. It redirects you to a denied page, where it says "Access is denied from your IP address".
   
   
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/b88c36d3-7c3d-40e0-81f5-bdd0a5bf11e3)
@@ -39,26 +41,33 @@ Only one endpoint worked i.e. the login page on the URL. It redirects you to a d
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/aff7639e-8669-4ced-b0cb-ed1ae8b987fb)
 
 
-If you are not being able to login, there are some other ways you can try for example, open Burpsuite and search for a GET request for the login page, and send it to the repeater.
-Send the same request and carefully focus on the response, the second flag has been found using burp suite and another endpoint for the login page.   
+If you are not being able to login, there are some other ways you can try for example, open Burpsuite and search for a GET request for the login page, and send it to the repeater. Send the same request and carefully focus on the response, the second flag has been found using burp suite and a new endpoint is provided for the login page.   
      
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/08ec4318-5579-4d05-8cbc-d9fb649af036)
+
+
+                                Flag 2 found with the help of Burp Suite software
+
 
 Now add that new endpoint to the URL. You find the login page here and two fields: Username and Password. As you don't have the credentials, we will go back to the newly found URL while using curl i.e. "http://data.vulnlawyers.co.uk". After visiting it, you will find the third flag.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fa1d57be-13b9-471d-aaec-c38a1c8f7b53)
 
-        Flag 3 found in the new domain
+                                       Flag 3 found in the new domain
 
 
 
 ### **3. Finding the Credentials**
 
-FUZZ the new domain, you find a new endpoint and you visit the website with that enpoint i.e. "users". After visiting we find multiple lawyer names and their email ids along with the fourth flag. You can notice in result that there are five lawyers and their email ids. 
-This can be a huge vulnerabiltiy because you can use burp suite to brute force and find the correct credentials.
+Start up "ffuf" to find the new domain. The command works as follows: (ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u http://data.vulnlawyers.co.uk/FUZZ). You will find a new endpoint and you visit the website with that endpoint i.e. "users". After visiting you find multiple lawyer names and their email ids along with the fourth flag. You can notice in result that there are five lawyers and their email ids. 
+This can be a huge vulnerabiltiy because you can use brute force attack and find the correct credentials.
 
-![Flag 4 found by Fuzzing](https://github.com/ocoretech/CTF-workbook/assets/67775716/4aadde45-7036-4a74-8a21-428b5a0410d4)
+
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c7f9e127-8c82-4dde-89c1-863fc1c27f80)
+
+
+                                Flag 4 found with the help of new endpoint
 
 
 After finding the correct credential, login the staff portal, 
