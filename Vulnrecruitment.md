@@ -88,3 +88,17 @@ You find some coordinates of a place by fuzzing. Those coordinates lead to a pub
 
 Check for a POST request for "uploads". You will find a JSON file and how it can work as a vulnerabilty. If you change that to redirect to our admin domain, then you can access the files on that domain. End the the request to repeater and change it into a redirect like CSRF vulnerabilty with our admin domain. Send this request and check for the response. Here you have found your last flag in the var files section.
 
+
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. Brute Force
+2. Cross-Site Request Forgery
+
+
+### **Tools used:**
+1. nslookup
+2. dnsrecon
+3. theHarvester
+4. ffuf
+5. BurpSuite
+
+
