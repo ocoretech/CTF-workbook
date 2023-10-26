@@ -59,7 +59,7 @@ Now add that new endpoint to the URL. You find the login page here and two field
 ### **3. Finding the Credentials**
 
 Start up "ffuf" to find the new domain. The command works as follows: (ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u http://data.vulnlawyers.co.uk/FUZZ). You will find a new endpoint and you visit the website with that endpoint i.e. "users". After visiting you find multiple lawyer names and their email ids along with the fourth flag. You can notice in result that there are five lawyers and their email ids. 
-This can be a huge vulnerabiltiy because you can use brute force attack and find the correct credentials.
+This can be a huge vulnerabiltiy because you can use brute force attack add the simple list of passwords from passwords.txt and find the correct credentials.
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c7f9e127-8c82-4dde-89c1-863fc1c27f80)
@@ -77,4 +77,17 @@ Use brute force attack on the user who is managing the case and find out the use
                                 Flag 6 found by deleting the active cases
 
 
-   
+
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. Brute Force
+
+
+
+### **Tools used:**
+1. nslookup
+2. dnsrecon
+3. theHarvester
+4. ffuf
+5. BurpSuite
+
+
