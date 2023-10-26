@@ -27,12 +27,7 @@ Along with the flag you will find a CSS file in the source code, open the file.
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/8270c188-14eb-4a4b-b096-de461d83d427)
 
 
-You can see that they have provided us another URL, open and visit it.
-
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/051a420a-9144-4013-86d9-6586ed3d5313)
-
-
-The URL includes a XML file which consists a directory named "flag.txt". Include it in the URL and you will find the second flag with the help of the specified directory.
+You can see that they have provided us another URL "https://vulntraining.s3.eu-west-2.amazonaws.com", open and visit it. The URL includes a XML file which consists a directory named "flag.txt". Include it in the URL and you will find the second flag with the help of the specified directory.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2b62f1c4-e2ca-4125-b70e-d8bb6c7928d7)
 
@@ -40,7 +35,7 @@ The URL includes a XML file which consists a directory named "flag.txt". Include
                             Flag 2 found in a specified directory in XML File
 
 
-Use dnsrecon to find out subdomains. You will find two subdomains but both of them will have no access. Us "theHarvester" tool for more information of our server.
+Use "dnsrecon" to find out subdomains(dnsrecon -d vulntraining.co.uk -D CTF/subdomains.txt -t brt). You will find two subdomains but both of them will have no access. Use "theHarvester" tool for more information of our server(theHarvester -d vulntraining.co.uk -b all).
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/b5e4d033-3c10-4487-bb73-5c5da2502722)
 
@@ -57,10 +52,10 @@ A third subdomain has been found, visit that subdomain and you will find your th
 ### **2. Finding endpoints**
 
 
-With the help of "ffuf" tool, search for directories/endpoints.
-There are multiple endpoints provided in the reseult, use all of them in the server and look for which one provides you the information.
+Start up "ffuf" tool, search for directories/endpoints (ffuf -w CTF/content.txt -t 2 -p 1.0 -H "Cookie: $cookie" -u https://vulntraining.co.uk/FUZZ).
+There are multiple endpoints provided in the result, use all of them in the server and look for which one provides you the information.
 
-With "robots.txt" you will find a secret directory. Insert it in the URL and wait for the results. Fourth flag has been found using the directory "robots.txt"
+With "robots.txt" you will find a secret directory. Insert it in the URL and wait for the result. Fourth flag has been found using the directory "robots.txt"
 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f1c90a1b-8c88-45ec-9d68-cc007dfb2135)
@@ -78,7 +73,7 @@ By using the directory "server", it redirects you to a login page, use any rando
 
                               Flag 5 found in Burp Suite Response
 
-Move towards the directory ".git/index". You will find a URl leading to Github. 
+Move towards the directory ".git/index". You will find a URL leading to Github. 
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/6e7f4a0c-4715-4910-9566-b1e51d99481c)
 
@@ -113,7 +108,7 @@ Click on the billing users and you will find the seventh flag with the username 
 
                                 Flag 7 found by logging in Secret Portal 
 
-Head towards the billing subdomain we found during dnsrecon and try logging in with the credentials. It says that the password is invalid, use brute force and find ou the correct password.
+Head towards the billing subdomain we found during dnsrecon and try logging in with the credentials. It says that the password is invalid, use brute force and find out the correct password.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9fa72206-8223-4c3d-83c4-0f1109c172d5)
 
@@ -125,7 +120,7 @@ You will find the eighth flag after successfully logging in with the help of bru
                               Flag 8 found by Brute force attack
 
 
-Click on id 1 and check for a GET request and send it to the repeater. You will find a token in the response tab when you search for a id 10. 
+Click on id 1 and check for a GET request and send it to the repeater. You will find a token in the response tab when you search for an id 10. 
 Use that token as a cookie with the help of "ffuf". You will find one endpoint i.e. "api".
 
 It says API error, so try and look for any GET requests through request bin. You will find the nineth flag with the help of "api" endpoint. The GET request will also provide you with a X-token. 
@@ -142,17 +137,17 @@ Head towards the admin subdomain you found during dnsrecon and use the mod heade
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/4063333e-71ee-42d1-a081-7e0575d421a2)
 
 
-You will be provided with another endpoint called "invoices" for the admin subdomain. Now use FUZZING to find out more endpoints of the subdomain with "invoices" endpoint. You will find admin, users, 03, 05, 3 ad 5 as endpoints. Check every endpoint to find the remaining flags.
+You will be provided with another endpoint called "invoices" for the admin subdomain. Now start up "ffuf" to find out more endpoints of the subdomain with "invoices" endpoint. You will find admin, users, 03, 05, 3 ad 5 as endpoints. Check every endpoint to find the remaining flags.
 
-You will find the tenth flag with the help of the endpoints, with a username and an apikey.
+You will find the tenth flag with the help of the endpoints, with a username and an api key.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/04d6ba39-9cbf-45f6-b068-7fcb3b08f1ea)
 
                                   Flag 10 found in "admin" directory
 
 
-Change the X-token value to the apikey value you found. Now refresh and you will see there is another secret directory to be included in the URL. 
-It provides you a message conversation between to users. You can see that one message has been deleted by the user, find that message by using sqlmap.
+Change the X-token value to the api key value you found. Now refresh and you will see there is another secret directory to be included in the URL. 
+It provides you a message conversation between two users. You can see that one message has been deleted by the user, find that message by using sqlmap.
 
 The deleted message was the last flag of our challenege.
 
