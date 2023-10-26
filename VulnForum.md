@@ -53,7 +53,7 @@ You found your first flag and a URL. Visit this url.
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/4e849a60-606d-44f0-ae8e-056ed3255b6e)
 
 
-Try to find the subdomain of this URL by startinng up nslookup (nslookup -type-any vulnforum.co.uk) and visit the website found in the results.
+Try to find the subdomain of this URL by starting up nslookup with the following command (nslookup -type-any vulnforum.co.uk) and visit the website found in the results.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/cc19d407-3439-4342-9873-4eeec70ae942)
