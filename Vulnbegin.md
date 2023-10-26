@@ -128,3 +128,19 @@ Try searching for any other users by changing the user id.
 
 
 By searching for different users, we find the last flag with help of user id five.
+
+
+
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. Brute Force
+
+
+
+### **Tools used:**
+1. nslookup
+2. dnsrecon
+3. theHarvester
+4. ffuf
+5. BurpSuite
+
+
