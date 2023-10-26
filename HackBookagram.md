@@ -139,3 +139,15 @@ Click on the "Delete Records" button and you will find your final flag with the 
 
 
 
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. Cross Site Scripting
+
+
+
+### **Tools used:**
+1. nslookup
+2. dnsrecon
+3. ffuf
+4. BurpSuite
+
+
