@@ -181,6 +181,17 @@ This is where we find our final flag.
   
 
 
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. File Incluion
+2. JavaScript
+3. Stored XSS
+
+
+### **Tools used:**
+1. nslookup
+
+
+
 
 
 
