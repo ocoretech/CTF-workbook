@@ -61,7 +61,7 @@ Try to find the subdomain of this URL by starting up nslookup with the following
                             Flag 2 found on Authentication page
 
 
-Here you find the second flag on the new website found during nslookup. Now create an account.
+Here you find the second flag on the new authentication website found during nslookup. Now create an account.
 
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/afc7644a-8d32-413b-95c3-f2e1781fc69f)
