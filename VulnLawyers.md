@@ -11,7 +11,7 @@ HackingHub is a type of information security competition that challenges competi
 
 
 ### **[VulnLawyers](https://app.hackinghub.io/vuln-lawyers)**
-    https://app.hackinghub.io/vuln-lawyers
+    
    
 ### **Objective:** Our main purpose is to find a way into their admin portal. 
 
