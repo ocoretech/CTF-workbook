@@ -14,7 +14,7 @@ Search for subdomains by using dnsrecon (dnsrecon -d vulnrecruitment.co.uk -D CT
 
 
 
-Use "theharvester" tool for gathering information about "vulnrecruitment.co.uk"(theHarvester -d vulnrecruitment.co.uk -b all).
+Use "theHarvester" tool for gathering information about "vulnrecruitment.co.uk"(theHarvester -d vulnrecruitment.co.uk -b all).
 
 ![image](https://github.com/ocoretech/Sahil-workbook/assets/67775716/717df765-582e-4a5f-8f13-f9090afdb507)
 
