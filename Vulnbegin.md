@@ -18,7 +18,7 @@ Use nslookup tool to search for any extra information we can get from our domain
                                                     Flag 1 found by using nslookup
 
 
-With the help of dnsrecon, a subdomain has been found (dnsrecon -d vulnbegin.co.uk -D CTF/subdomain.txt -t brt). Visit that subdomain and you will find your second flag. You will also notice on the subdomain where it says "User not Authenticated". Try using theHarvester tool to find out more subdomains or more information regarding the flags (theHarvester -d vulnbegin.co.uk -b all).
+With the help of dnsrecon, a subdomain has been found (dnsrecon -d vulnbegin.co.uk -D CTF/subdomain.txt -t brt). Visit that subdomain and you will find your second flag. You will also notice on the subdomain where it says "User not Authenticated". Try using theHarvester tool to find more subdomains or more information regarding the flags (theHarvester -d vulnbegin.co.uk -b all).
 
                                                     Flag 2 found using dnsrecon
 
