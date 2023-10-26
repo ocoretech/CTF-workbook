@@ -21,7 +21,7 @@ Run dnsrecon to find subdomains
                                       Flag 1 found by using dnsrecon
 
 
-The first flag has been found with the help of dnsrecon method. Start up ffuf to find different directories associated with the domain(ffuf -w CTF/content.tct -t 2 -p 1.0 -u vulncommerce.co.uk
+The first flag has been found with the help of dnsrecon method. Start up ffuf to find different directories associated with the domain(ffuf -w CTF/content.tct -t 2 -p 1.0 -u vulncommerce.co.uk)
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/121c36e9-6353-4222-b04e-06dac3c12952)
 
