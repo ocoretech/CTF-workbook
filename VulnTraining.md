@@ -108,7 +108,7 @@ Click on the billing users and you will find the seventh flag with the username 
 
                                 Flag 7 found by logging in Secret Portal 
 
-Head towards the billing subdomain we found during dnsrecon and try logging in with the credentials. It says that the password is invalid, use brute force and find out the correct password.
+Head towards the billing subdomain we found during dnsrecon and try logging in with the credentials. It says that the password is invalid, use brute force and add simple list of passwords from password.txt and find out the correct password.
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9fa72206-8223-4c3d-83c4-0f1109c172d5)
 
@@ -154,4 +154,18 @@ The deleted message was the last flag of our challenege.
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c8fd3119-3cea-4ec7-a8a1-60916fafe82c)
 
                           Flag 11 found in a deleted message from the user
+
+
+
+### **Common Vulnerabilities in VulnTraining:**
+1. Brute Force
+
+
+
+### **Tools used:**
+1. dnsrecon
+2. theHarvester
+3. ffuf
+4. BurpSuite
+
 
