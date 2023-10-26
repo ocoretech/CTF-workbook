@@ -1,6 +1,6 @@
         
-# **CTF Challenges (HackingHub)**
-https://app.hackinghub.io/
+# **[CTF Challenges](https://app.hackinghub.io/)(HackingHub)**
+
 
 
 Hey folks, in this blog I'm going to share how to get started in CTF(HackingHub) and complete the challenges step by step. Let's jump into it.
@@ -9,8 +9,6 @@ Before knowing about how things work in CTF let’s first understand what CTF is
 
 Capture the Flag(HackingHub) is a type of information security competition that challenges competitors to solve a variety of tasks. It is a special type of cybersecurity competition designed to challenge computer participants to solve computer security problems or capture and defend computer systems. Let' get into it and start our first challenge.
 
-
-### **CTF Challenges solutions**
 
 ### **[VulnLawyers](https://app.hackinghub.io/vuln-lawyers)**
     https://app.hackinghub.io/vuln-lawyers
@@ -70,10 +68,13 @@ This can be a huge vulnerabiltiy because you can use brute force attack and find
                                 Flag 4 found with the help of new endpoint
 
 
-After finding the correct credential, login the staff portal, 
+After finding the correct credentials, use them to login the portal. You will find your fifth flag and the staff portal with the current cases and who is managing it.
 
+                                Flag 5 found with the help of correct credentials
 
-* After we login, we get our fifth flag and the staff portal with the current cases and who is managing it.
+Use brute force attack on the user who is managing the case and find out the user's login credentials. After logging in, you will find out the case name and an option to delete cases. Hit enter and you will find the final and sixth flag.
+
+                                Flag 6 found by deleting the active cases
 
 
    
