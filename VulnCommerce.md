@@ -89,3 +89,17 @@ This will act as a social engineering attack. After few minuites you will get to
 
 The fifth flag has been found using social engineering and you have been successfully logged into Simon's account.
 
+
+
+### **Common Vulnerabilities in Vulnrecruitment:**
+1. Social Engineering
+
+
+### **Tools used:**
+1. nslookup
+2. ffuf
+3. Sitemap
+4. BurpSuite
+
+
+
