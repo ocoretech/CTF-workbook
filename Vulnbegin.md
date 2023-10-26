@@ -131,7 +131,7 @@ By searching for different users, we find the last flag with help of user id fiv
 
 
 
-### **Common Vulnerabilities in Vulnrecruitment:**
+### **Common Vulnerabilities in Vulnbegin:**
 1. Brute Force
 
 
