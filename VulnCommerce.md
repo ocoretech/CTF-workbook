@@ -12,7 +12,8 @@ The homepage of VulnCommerce is about the products they are offering i.e. laptop
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a2577ba2-0d39-4c12-bae7-f40436b4df29)
 
 
-Start with dnsrecon to find subdomains.
+Run dnsrecon to find subdomains
+
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/220d2984-6914-4ed9-bf7f-021d1499ce17)
 
@@ -20,7 +21,7 @@ Start with dnsrecon to find subdomains.
                                       Flag 1 found by using dnsrecon
 
 
-The first flag has been found with the help of dnsrecon. Now use "ffuf" to find the different directories associated with the domain.
+The first flag has been found with the help of dnsrecon method. Start up ffuf to find different directories associated with the domain(ffuf -w CTF/content.tct -t 2 -p 1.0 -u vulncommerce.co.uk
 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/121c36e9-6353-4222-b04e-06dac3c12952)
 
