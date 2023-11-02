@@ -13,7 +13,8 @@ Vulnerabilities can be classified into six broad categories: Hardware, Software,
 
 An Image to show how attacks occur because of vulnerabilities.
 
-![Alt text](Vulnerability.png)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c07d49fd-b346-42c4-8b2b-86275c3c97d2)
+
 
 
 ### **Page 9**
@@ -157,12 +158,14 @@ backend note: Now, this is sent to a large number of users and the person who in
 4. Voice Phishing: This type of attack is sometimes referred to as vishing. Someone who is using the method of vishing, use modern caller id spoofing to convince the victim that the call is from a trusted source.
 
 Image:
-![Phishing](Phishing.png)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c81822b3-6f22-45bf-abb4-24993c48d75c)
+
 
 
 ### **Page 44**
 Information Warfare image, shift to page 44
-![Information Warfare](<Information Warfare.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/878ce82f-1b79-4a93-bf71-1fabf8eb87a2)
+
 
 
 ### **Page 45**
@@ -196,7 +199,8 @@ Continual/Adaptive Security Strategy:
 
 * Defense-in-depth helps to prevent direct attacks against an information system and its data because a break in one layer only leads the attacker to the next layer.
 
-![Defence in Depth](<Defense in Depth.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2a1a29f0-97b8-4a7a-b1c1-60f56d10ecd0)
+
 
 ### **Page 60**
 
@@ -247,7 +251,8 @@ Also don't know if we want this slide of Annual Loss Expectancy.
 
 ### **Page 82**
 
-SOC Image: ![SOC](SOC.png)
+SOC Image: ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/7fd06edd-9d89-4727-8516-66d45f93992a)
+
 
 
 ### **Page 83**
@@ -321,7 +326,8 @@ accidental user error
 
 ### **Page 146**
 
-![Threat Intelligence Lifecycle](<Threat Intelligence Lifecycle.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/de892828-a1c3-4a1d-a6ec-1fce59692841)
+
 
             Threat Intelligence Lifecycle
 
@@ -339,7 +345,7 @@ accidental user error
 
 * An understanding of cyber kill chain methodology helps security professionals to leverage security controls at different stages of an attack and helps them to prevent the attack before it succeeds.
 
-![Kill Chain](<Cyber Kill Chain.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/356e7e35-7241-4147-80da-5bb72abd596f)
 
                 Cyber Kill Chain Methodology
 
@@ -399,7 +405,8 @@ The Diamond event consists of four basic features:
 3. Capability: How the attack was performed
 4. Infrastructure: What the adversary used to reach the victim
 
-![Diamond Model](<Diamond Model.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f046c5ae-3ecd-4cde-9f48-31ef14a93082)
+
 
                     Diamond Model
 
@@ -521,8 +528,10 @@ GDPR includes seven protection and accountability principles:
 
 No need to specify each country on a single page, instead adding following images:
 
-![Alt text](Laws.png)
-![Alt text](<Laws 1.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/55efdeed-9cea-4ec5-8d9b-cc4c4659aa04)
+
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/02d35d2d-6967-44e0-aa0a-2b6312906e9a)
+
 
 
 ### **Page 200**
@@ -548,7 +557,8 @@ Industrial spies are individuals who perform corporate espionage by illegally sp
 
 ### **Page 208**
 
-![Hacking Stages](<Hacking Stages.jpg>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/fd8dfb7d-d110-4b95-ae5c-7dd5a3c4c206)
+
 
 
 
