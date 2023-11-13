@@ -13,7 +13,8 @@ Shift Page 9 under page 6.
 
 ### **Page 7**
 
-![OSINT](osint.jpg)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2d602ac1-d6fb-4407-8dfc-604b1111b26d)
+
 
 
 ### **Page 9**
@@ -71,7 +72,8 @@ Backend Note:
 
 *  Although FTP servers are usually protected with passwords, many servers are left unsecured and can be accessed directly through web browsers.
 
-![FTP](<Google Search Queries.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/7ff99f02-1b9c-4e33-bff4-a193c239ce2e)
+
 
         Google Search Queries to find FTP servers
 
@@ -142,7 +144,8 @@ Backend Note:
 
 ### **Page 63**
 
-![Traceroute](Traceroute.png)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9824bb10-2d3e-4679-92e5-5aea80cf8f39)
+
 
 
 
