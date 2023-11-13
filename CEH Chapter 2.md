@@ -72,7 +72,8 @@ Backend Note:
 
 *  Although FTP servers are usually protected with passwords, many servers are left unsecured and can be accessed directly through web browsers.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/7ff99f02-1b9c-4e33-bff4-a193c239ce2e)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/8e416935-9d0b-42e1-a8ab-d17cbc16e780)
+
 
 
         Google Search Queries to find FTP servers
@@ -144,7 +145,8 @@ Backend Note:
 
 ### **Page 63**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9824bb10-2d3e-4679-92e5-5aea80cf8f39)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c6812a59-3942-40fc-b84c-98ac79ed591d)
+
 
 
 
