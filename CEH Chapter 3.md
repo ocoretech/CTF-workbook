@@ -17,7 +17,7 @@
 
 * Increases the size of the IP address space from 32 bits to 128 bits.
 
-Image: 
+
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/1421770c-a2ec-4ecd-95ab-79c4f68488aa)
 
 
@@ -28,7 +28,7 @@ Image:
 
 * It is a three-step process that requires both the client and server to exchange synchronization and acknowledgment packets before the real data communication process starts.
 
-Image: 
+
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/924149b6-4698-4c44-9d59-06b218c4fa7e)
 
 
@@ -108,7 +108,7 @@ Backend Note:
 4. Application layer: 
     * Responsible for end-to-end communication and error-free delivery of data.
 
-Image: 
+ 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/222ce7e7-f914-4296-a40f-130ce49dabe3)
 
 
@@ -117,7 +117,7 @@ Image:
 
 ### **Page 24**
 
-Image: 
+ 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a59fc7ee-2889-47ca-b60b-5c0b2d020d5e)
 
 
@@ -182,7 +182,7 @@ Here's how a typical ICMP ping sweep works:
 
 ### **Page 50**
 
-Image: 
+ 
 ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/160f18da-bd21-482f-bb07-3775fe12df0a)
 
 
