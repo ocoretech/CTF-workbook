@@ -22,7 +22,8 @@ Attackers use NetBIOS enumeration to obtain:
 
 ### **Page 15**
 
-![SNMP](<SNMP Enumeration.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9a7cb0de-0678-47ab-a0f8-fd353a0a73bc)
+
 
                     Working of SNMP
 
