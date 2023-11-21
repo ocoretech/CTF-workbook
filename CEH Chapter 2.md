@@ -13,7 +13,8 @@ Shift Page 9 under page 6.
 
 ### **Page 7**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2d602ac1-d6fb-4407-8dfc-604b1111b26d)
+![image](https://github.com/ocoretech/CTF-workbook/images/67775716/58e6d7f3-e845-4562-84a1-05e8d3112f4b)
+
 
 
 
