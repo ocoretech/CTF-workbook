@@ -13,7 +13,8 @@ Vulnerabilities can be classified into six broad categories: Hardware, Software,
 
 An Image to show how attacks occur because of vulnerabilities.
 
-https://github.com/ocoretech/CTF-workbook/blob/main/images/Vulnerability.png?raw=true
+![Vulnerability](https://github.com/ocoretech/CTF-workbook/assets/67775716/433e010e-c089-4380-b5ad-0a14a6ae587c)
+
 
 
 
