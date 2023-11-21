@@ -12,7 +12,8 @@ CVSS assessment consists of the following three metrics for measuring vulnerabil
 
 3. Environmental Metric: represents vulnerabilities that are based on a particular environment or implementation.
 
-![CVSS rating](<CVSS ratings.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/e4391da9-79f5-4a12-816b-db87f1e30e93)
+
 
                        CVSS Ratings
 
@@ -42,7 +43,8 @@ CVSS assessment consists of the following three metrics for measuring vulnerabil
 
 ### **Page 16**
 
-![Components](<Components of vulnerability assessment report.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/02ed4aa1-662c-4e77-ba2e-3b65ce5f7a31)
+
 
 
      Components of Vulnerability Assessment Report
