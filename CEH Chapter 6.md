@@ -27,7 +27,8 @@ LM, NTLMv1, and NTLMv2, all of which use the same technique for authentication. 
 
 ### **Page 30**
 
-![Kerberos](Kerberos.png)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/4ad8baa8-045d-4712-871d-ab34cd5cd1b3)
+
 
 
              Kerberos Authentication Process
@@ -151,7 +152,8 @@ User Account Control (UAC)
 
 * The first data stream stores the security descriptor for the file to be stored, such as permissions, and the second stores the data within a file.
 
-![NTFS Datastreams](<NTFS Datastreams.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a530d5bc-a221-482a-a956-cec931be7d50)
+
 
                     NTFS Datastreams
 
@@ -159,7 +161,8 @@ User Account Control (UAC)
 
 ### **Page 82**
 
-![Steganography message](<Steganography message.png>)
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/8949269d-a2b2-45b1-9ca9-df17b2ec5a87)
+
 
             Hiding message using steganography 
 
