@@ -13,7 +13,7 @@ Shift Page 9 under page 6.
 
 ### **Page 7**
 
-![alt text](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/osint.jpg)
+![OSINT](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/osint.jpg)
 
                                     OSINT Functions
 
@@ -145,10 +145,10 @@ Backend Note:
 
 ### **Page 63**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c6812a59-3942-40fc-b84c-98ac79ed591d)
+![Traceroute](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Traceroute.png)
 
 
-
+                                        Traceroute
 
 
 
