@@ -13,7 +13,7 @@ Shift Page 9 under page 6.
 
 ### **Page 7**
 
-https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/osint.jpg
+![alt text](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/osint.jpg)
 
 
 
