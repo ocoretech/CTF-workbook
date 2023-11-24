@@ -8,7 +8,7 @@
 * Vulnerability Scanning:
     * Method for checking whether a system is exploitable by identifying its vulnerabilities.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/eb9bd30c-8238-4c55-b2a4-ee25e7e83de0)
+![Network Scanning](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Network%20Scanning%20.png)
 
                     Network Scanning
 
@@ -18,7 +18,7 @@
 * Increases the size of the IP address space from 32 bits to 128 bits.
 
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/1421770c-a2ec-4ecd-95ab-79c4f68488aa)
+![IPv6 Scan](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/IPv6%20scan.png)
 
 
                     IPv6 Scanning
@@ -29,7 +29,7 @@
 * It is a three-step process that requires both the client and server to exchange synchronization and acknowledgment packets before the real data communication process starts.
 
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/924149b6-4698-4c44-9d59-06b218c4fa7e)
+![Three way handshake](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Three%20way%20handshake.png)
 
 
                    Three-Way Handshake
@@ -84,7 +84,7 @@ Step 3: In this final step, the client acknowledges the response of the Server, 
 4. Transport (segments)
     * Provides the acknowledgment of the successful data transmission and re-transmits the data if an error is found.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/3e541d14-240f-4e8f-a5e7-a8454f0a8c1c)
+![OSI Model](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/OSI%20model.png)
 
 
                         OSI Model
@@ -109,7 +109,7 @@ Backend Note:
     * Responsible for end-to-end communication and error-free delivery of data.
 
  
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/222ce7e7-f914-4296-a40f-130ce49dabe3)
+![TCP IP Model](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/TCP%20IP%20model.png)
 
 
                     TCP IP Model
@@ -118,7 +118,7 @@ Backend Note:
 ### **Page 24**
 
  
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a59fc7ee-2889-47ca-b60b-5c0b2d020d5e)
+![Nmap Scan](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/nmap%20scan.png)
 
 
                         Nmap scan
@@ -183,7 +183,7 @@ Here's how a typical ICMP ping sweep works:
 ### **Page 50**
 
  
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/160f18da-bd21-482f-bb07-3775fe12df0a)
+![UDP Scan](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/UDP%20Scanning.png)
 
 
                        UDP Scanning
@@ -233,7 +233,7 @@ Here's how a typical ICMP ping sweep works:
 
 *  When spoofing a nonexistent address, the target replies to a nonexistent system and then hangs until the session times out, thus consuming a significant amount of its own resources.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/baa818a7-7af6-4eb2-80e5-1d8ceeb31dbb)
+![IP Spoofing](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/IP%20Spoofing.png)
 
 
                        IP Spoofing
@@ -267,7 +267,7 @@ Why use an Anonymizer?
 
 ### **Page 70**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/ab2369c8-3335-494c-a4b4-feaa41d4058b)
+![Active and Passive Banner Grabbing](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Active%20and%20Passive%20Banner%20Grabbing.png)
 
 
             Active and Passive Banner Grabbing
