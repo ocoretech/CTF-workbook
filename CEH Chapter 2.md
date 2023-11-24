@@ -15,8 +15,7 @@ Shift Page 9 under page 6.
 
 ![alt text](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/osint.jpg)
 
-
-
+                                    OSINT Functions
 
 ### **Page 9**
 
@@ -73,8 +72,8 @@ Backend Note:
 
 *  Although FTP servers are usually protected with passwords, many servers are left unsecured and can be accessed directly through web browsers.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/8e416935-9d0b-42e1-a8ab-d17cbc16e780)
 
+![Google Search Queries](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Google%20Search%20Queries.png)
 
 
         Google Search Queries to find FTP servers
