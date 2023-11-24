@@ -1,4 +1,4 @@
-## **CEH Chapter 6**
+![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/af7dc14f-2731-4140-b150-bf5a7a383157)## **CEH Chapter 6**
 
 ### **Page 16**
 
@@ -27,7 +27,7 @@ LM, NTLMv1, and NTLMv2, all of which use the same technique for authentication. 
 
 ### **Page 30**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/4ad8baa8-045d-4712-871d-ab34cd5cd1b3)
+![Kerberos](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Kerberos.png)
 
 
 
@@ -152,7 +152,7 @@ User Account Control (UAC)
 
 * The first data stream stores the security descriptor for the file to be stored, such as permissions, and the second stores the data within a file.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/a530d5bc-a221-482a-a956-cec931be7d50)
+![NTFS Datastreams](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/NTFS%20Datastreams.png)
 
 
                     NTFS Datastreams
@@ -161,7 +161,7 @@ User Account Control (UAC)
 
 ### **Page 82**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/8949269d-a2b2-45b1-9ca9-df17b2ec5a87)
+![Steganography](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Steganography%20message.png)
 
 
             Hiding message using steganography 
