@@ -22,7 +22,7 @@ Attackers use NetBIOS enumeration to obtain:
 
 ### **Page 15**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/9a7cb0de-0678-47ab-a0f8-fd353a0a73bc)
+![SNMP Enumeration](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/SNMP%20Enumeration.png)
 
 
                     Working of SNMP
