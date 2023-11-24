@@ -13,9 +13,9 @@ Vulnerabilities can be classified into six broad categories: Hardware, Software,
 
 An Image to show how attacks occur because of vulnerabilities.
 
-![Vulnerability](https://github.com/ocoretech/CTF-workbook/assets/67775716/433e010e-c089-4380-b5ad-0a14a6ae587c)
+![Vulnerability](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Vulnerability.png)
 
-
+                                             Vulnerability
 
 
 ### **Page 9**
@@ -159,15 +159,16 @@ backend note: Now, this is sent to a large number of users and the person who in
 4. Voice Phishing: This type of attack is sometimes referred to as vishing. Someone who is using the method of vishing, use modern caller id spoofing to convince the victim that the call is from a trusted source.
 
 Image:
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/c81822b3-6f22-45bf-abb4-24993c48d75c)
+![Phishing](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Phishing.png)
 
+                             Phishing Process
 
 
 ### **Page 44**
 Information Warfare image, shift to page 44
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/878ce82f-1b79-4a93-bf71-1fabf8eb87a2)
+![Information Warfare](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Information%20Warfare.png)
 
-
+                                               Information Warfare
 
 ### **Page 45**
 
@@ -200,7 +201,10 @@ Continual/Adaptive Security Strategy:
 
 * Defense-in-depth helps to prevent direct attacks against an information system and its data because a break in one layer only leads the attacker to the next layer.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/2a1a29f0-97b8-4a7a-b1c1-60f56d10ecd0)
+![Defense in Depth](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Defense%20in%20Depth.png)
+
+
+                                          Defense-in-Depth
 
 
 ### **Page 60**
@@ -252,8 +256,10 @@ Also don't know if we want this slide of Annual Loss Expectancy.
 
 ### **Page 82**
 
-SOC Image: ![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/7fd06edd-9d89-4727-8516-66d45f93992a)
+SOC Image: ![SOC](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/SOC.png)
 
+
+                             Security Operations Centre
 
 
 ### **Page 83**
@@ -327,7 +333,7 @@ accidental user error
 
 ### **Page 146**
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/de892828-a1c3-4a1d-a6ec-1fce59692841)
+![Threat Intelligence Lifecycle](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Threat%20Intelligence%20Lifecycle.png)
 
 
             Threat Intelligence Lifecycle
@@ -346,7 +352,7 @@ accidental user error
 
 * An understanding of cyber kill chain methodology helps security professionals to leverage security controls at different stages of an attack and helps them to prevent the attack before it succeeds.
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/356e7e35-7241-4147-80da-5bb72abd596f)
+![Cyber Kill Chain](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Cyber%20Kill%20Chain.png)
 
                 Cyber Kill Chain Methodology
 
@@ -406,7 +412,7 @@ The Diamond event consists of four basic features:
 3. Capability: How the attack was performed
 4. Infrastructure: What the adversary used to reach the victim
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/f046c5ae-3ecd-4cde-9f48-31ef14a93082)
+![Diamond Model](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Diamond%20Model.png)
 
 
                     Diamond Model
@@ -529,9 +535,9 @@ GDPR includes seven protection and accountability principles:
 
 No need to specify each country on a single page, instead adding following images:
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/55efdeed-9cea-4ec5-8d9b-cc4c4659aa04)
+![Laws](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Laws.png)
 
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/02d35d2d-6967-44e0-aa0a-2b6312906e9a)
+![Laws 1](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Laws%201.png)
 
 
 
