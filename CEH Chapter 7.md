@@ -37,7 +37,7 @@ E-Banking Trojans:
 
 Defacement Trojan:
 
-![Defaced calc](<Defaced Calc.png>)
+![Defaced calc](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Defaced%20Calc.png)
 
                             Defaced calc.exe application
 
@@ -65,7 +65,7 @@ Three components of Polymorphic Virus:
 3. Generates randomized decryption routines. Such decryption routines vary whenever the virus infects a new program. 
 
 
-![Working of Polymorphic Virus](<Working of Polymorphic Virus.png>)
+![Working of Polymorphic Virus](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Working%20of%20Polymorphic%20Virus.png)
 
 
                               Flow of Polymorphic Virus
