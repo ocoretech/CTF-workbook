@@ -2,7 +2,7 @@
 
 ### **Page 8**
 
-![Passive Sniffing](<Passive Sniffing.png>)
+![Passive Sniffing](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Passive%20Sniffing.png)
 
                                 Passive Sniffing
 
@@ -66,7 +66,7 @@ Some of the display filters in Wireshark are listed below:
     * Captures packets for various types of connections, e.g. 3G,4G,Wi-Fi.
 
 
-        ![Wicap](Wicap.png)
+        ![Wicap](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Wicap.png)
 
                     Wicap
 
@@ -87,7 +87,7 @@ Some of the display filters in Wireshark are listed below:
 
 ### **Page 31**
 
-![MAC Flooding Attack](<MAC Flooding Attack.png>)
+![MAC Flooding Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/MAC%20Flooding%20Attack.png)
 
                                 MAC Flooding Attack
 
@@ -107,7 +107,7 @@ DHCP Starvation
     * DHCPig 
     
 
-![Working of DHCP](<Working of DHCP.png>)
+![Working of DHCP](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Working%20of%20DHCP.png)
 
                              Working of DHCP
 
@@ -162,7 +162,7 @@ Slide 45 should be before slide 44
 * The root bridge is selected with the help of Bridge Protocol Data Units (BPDUs). BPDUs each have an identification number known as a BID or ID.
 
 
-![STP Attack](<STP Attack.png>)
+![STP Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/STP%20Attack.png)
 
                 STP Attack
 
