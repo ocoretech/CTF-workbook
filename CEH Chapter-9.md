@@ -88,7 +88,7 @@ Spimming
 
 ### **Page 36**
 
-![Malicious-Apps](Malicious-Apps.png)
+![Malicious-Apps](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Malicious-Apps.png)
 
                                     Malicious Apps
 
@@ -96,7 +96,7 @@ Spimming
 
 ### **Page 37**
 
-![Repacking-Legitimate-Apps](Repacking-Legitimate-Apps.png)
+![Repacking-Legitimate-Apps](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Repacking-Legitimate-Apps.png)
 
                             Repacking Legitimate Apps
 
@@ -113,14 +113,14 @@ Fake Security Apps
 * Victim downloads the application from the attacker's app store, attacker obtains confidential information such as bank account login credentials.
 
 
-![Fake-Security-App](Fake-Security-App.png)
+![Fake-Security-App](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Fake-Security-App.png)
 
                         Fake Security App
 
 
 ### **Page 39**
 
-![SMS-Phishing](SMS-Phishing.png)
+![SMS-Phishing](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/SMS-Phishing.png)
 
                                 SMS Phishing
 
