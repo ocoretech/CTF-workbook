@@ -54,7 +54,7 @@ Step 3: In this final step, the client acknowledges the response of the Server, 
     * Acted on only by members of a specific group
     * Enables one-to-many communication.
 
-3. 3. Broadcast
+3. Broadcast
     * Acted on by everyone in the network
     * Enables one-to-everyone communication. 
 
