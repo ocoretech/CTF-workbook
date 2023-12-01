@@ -35,11 +35,6 @@ LDAP
 * It uses DNS for quick lookups and the fast resolution of queries.
 
 
-### **Page 19**
-
-* LDAP Account Manager
-
-
 ### **Page 21**
 
 * PRTG Network Monitor: PRTG monitors all systems, devices, traffic, and applications of IT infrastructure by using various technologies such as SNMP, WMI, and SSH.
