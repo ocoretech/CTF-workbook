@@ -10,7 +10,7 @@ Examples for types of DoS attacks:
 * Hanging a system by causing it to go into an infinite loop
 
 
-![DOS-Attack](DOS-Attack-1.png)
+![DOS-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/DOS-Attack.png)
 
                                 Flow of DOS Attack
 
@@ -23,7 +23,7 @@ Botnets
 * A relatively small botnet of 1,000 bots has a combined bandwidth larger than the bandwidth of most corporate systems.
 
 
-![Botnet-based-DDOS-Attack](Botnet-based-DDOS-Attack.png)
+![Botnet-based-DDOS-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Botnet-based-DDOS-Attack.png)
 
 
                         Botnet-based-DDOS-Attack
@@ -34,7 +34,7 @@ Botnets
 
 UDP Flood Attack
 
-![UDP-Flood-Attack](UDP-Flood-Attack.png)
+![UDP-Flood-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/UDP-Flood-Attack.png)
 
 
                                 UDP Flood Attack
@@ -44,7 +44,7 @@ ICMP Flood Attack or Ping flood
 
 * These packets signal the victim's system to reply, and the large traffic saturates the bandwidth of the victim's network connection causing it to stop responding to legitimate TCP/IP requests. 
 
-![ICMP-Flood-Attack](ICMP-Flood-Attack.png)
+![ICMP-Flood-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/ICMP-Flood-Attack.png)
 
                                 ICMP Flood Attack
 
@@ -55,7 +55,7 @@ ICMP Flood Attack or Ping flood
 
 SYN Flood Attack
 
-![SYN-Flood-Attack](SYN-Flood-Attack.png)
+![SYN-Flood-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/SYN-Flood-Attack.png)
 
                                 SYN Flood Attack
 
@@ -77,7 +77,7 @@ Fragmentation Attack
     * Download the latest updates and patches for servers .
 
 
-![DRDOS-Attack](DRDOS-Attack.png)
+![DRDOS-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/DRDOS-Attack.png)
 
                                     DRDOS Attack
 
