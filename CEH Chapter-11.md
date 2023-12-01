@@ -7,7 +7,7 @@ Session Hijacking
 * Attacker steals a valid session ID and uses it to authenticate himself with the server.
 
 
-![Session-Hijacking](Session-Hijacking.png)
+![Session-Hijacking](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Session-Hijacking.png)
 
 
                     Session Hijacking
@@ -18,7 +18,7 @@ Session Hijacking
 
 Steps of Session Hijacking
 
-![Session-Hijacking-Process](Session-Hijacking-Process.png)
+![Session-Hijacking-Process](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Session-Hijacking-Process.png)
 
 
                         Session Hijacking Process
@@ -39,7 +39,7 @@ RST Hijacking
 * Involves injecting an authentic-looking reset (RST) packet using a spoofed source address and predicting the acknowledgment number.
 
 
-![RST-Hijacking-Process](RST-Hijacking-Process.png)
+![RST-Hijacking-Process](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/RST-Hijacking-Process.png)
 
                     RST Hijacking Process
 
@@ -48,7 +48,7 @@ RST Hijacking
 Blind Hijacking
 
 
-![Blind-Hijacking-Process](Blind-Hijacking-Process.png)
+![Blind-Hijacking-Process](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Blind-Hijacking-Process.png)
 
                             Blind Hijacking Process
 
