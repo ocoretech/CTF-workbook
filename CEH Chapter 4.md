@@ -13,8 +13,6 @@
 
 ### **Page 13**
 
-* NetBIOS is considered first for enumeration because it extracts a large amount of sensitive information about the target network.
-
 Attackers use NetBIOS enumeration to obtain: 
 * The list of computers that belong to a domain 
 * The list of shares on the individual hosts in a network
