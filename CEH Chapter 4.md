@@ -11,12 +11,6 @@
 * finger:  finger displays information about system users .
 
 
-### **Page 13**
-
-Attackers use NetBIOS enumeration to obtain: 
-* The list of computers that belong to a domain 
-* The list of shares on the individual hosts in a network
-* Policies and passwords
 
 ### **Page 15**
 
