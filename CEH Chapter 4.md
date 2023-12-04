@@ -78,6 +78,8 @@ Attackers use Svmap to perform the following:
 
 ### **Page 34**
 
+DNS Cache Snooping
+
 * By using this cached record, the attacker can determine the sites recently visited by the user. This information can further reveal important information such as the name of the owner of the DNS server, its service provider, etc.
 
 
