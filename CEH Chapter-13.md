@@ -4,7 +4,7 @@
 
 DNS Server Hijacking
 
-![DNS-Server-Hijacking](DNS-Server-Hijacking.png)
+![DNS-Server-Hijacking](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/DNS-Server-Hijacking.png)
 
 
                     DNS Server Hijacking
@@ -14,7 +14,7 @@ DNS Server Hijacking
 ### **Page 20**
 
 
-![DNS-Amplification-Attack](DNS-Amplification-Attack.png)
+![DNS-Amplification-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/DNS-Amplification-Attack.png)
 
 
                             DNS Amplification Attack
@@ -26,7 +26,7 @@ DNS Server Hijacking
 Man-In-The-Middle-Attacks (MITM)
 
 
-![MITM-Attack](MITM-Attack.png)
+![MITM-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/MITM-Attack.png)
 
 
                             Man-In-The-Middle Attack
@@ -44,7 +44,7 @@ Phishing Attacks
 * The website prompts the user to enter sensitive information, such as usernames, passwords, bank account details etc, and diverts the data to the attacker.
 
 
-![Phishing-Attack](Phishing-Attack.png)
+![Phishing-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Phishing-Attack.png)
 
                             Phishing Attack
 
