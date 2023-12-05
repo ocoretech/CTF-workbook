@@ -38,7 +38,7 @@ Evading IDS
 
 ### **Page 23**
 
-![Fragmentation Attack](Fragmentation-Attack.png)
+![Fragmentation-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Fragmentation-Attack.png)
 
 
 
@@ -92,7 +92,7 @@ Session Splicing
 
 ### **Page 42**
 
-![Circuit-Level-Gateway-Firewall](Circuit-Level-Gateway-Firewall.png)
+![Circuit-Level-Gateway-Firewall](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Circuit-Level-Gateway-Firewall.png)
 
 
                     Circuit Level Gateway Firewall Example
