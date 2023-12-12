@@ -27,7 +27,7 @@ Honeypot Attack
 * Honeypot Attacks Spelling check
 
 
-![Honeypot-Attack](Honeypot-Attack.png)
+![Honeypot-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Honeypot-Attack.png)
 
 
 ### **Page 30**
