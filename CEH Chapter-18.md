@@ -9,7 +9,7 @@ IOT Attack Types
     * BlueBorne is compatible with all software versions and does not require any user interaction, except that the Bluetooth should be activated. 
 
 
-![BlueBorne-Attack](BlueBorne-Attack.png)
+![BlueBorne-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/BlueBorne-Attack.png)
 
 
 
@@ -33,7 +33,7 @@ code, which unlocks the car.
 * The recorded second code is used later by the attacker to unlock and steal the vehicle.
 
 
-![Rolling-Code-Attack](Rolling-Code-Attack.png)
+![Rolling-Code-Attack](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Rolling-Code-Attack.png)
 
 
 
