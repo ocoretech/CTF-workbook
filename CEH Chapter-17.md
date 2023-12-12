@@ -9,7 +9,7 @@ Sandoboxing
 
 ### **Page 10**
 
-![Spam-Message](Spam-Message.png)
+![Spam-Message](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/Spam-Message.png)
 
 ### **Page 11**
 
@@ -52,7 +52,7 @@ OTP Hijacking
 
 * The attacker succeeds in OTP hijacking by initially stealing the victim's PII data by bribing or tricking mobile store sellers or exploiting the reuse of the number for different customers. 
 
-![OTP-Hijacking](OTP-Hijacking.png)
+![OTP-Hijacking](https://raw.githubusercontent.com/ocoretech/CTF-workbook/main/images/OTP-Hijacking.png)
 
 
 OTP Hijacking Countermeasures:
