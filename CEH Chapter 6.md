@@ -1,4 +1,4 @@
-![image](https://github.com/ocoretech/CTF-workbook/assets/67775716/af7dc14f-2731-4140-b150-bf5a7a383157)## **CEH Chapter 6**
+## **CEH Chapter 6**
 
 ### **Page 16**
 
