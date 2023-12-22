@@ -32,6 +32,7 @@ Steps:
 
 
 
+
 Task 2: Gather Information from Video Search Engines
 
 Here, we will perform an advanced video search and reverse image search using the YouTube search engine and YouTube Metadata tool.
