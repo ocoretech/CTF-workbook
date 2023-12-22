@@ -1,6 +1,6 @@
 Lab 1 - Perform footprinting through search engines
 
-Task 1: Gather Information using Advanced Google Hacking Techniques
+## **Task 1: Gather Information using Advanced Google Hacking Techniques**
 
 Advanced Google hacking refers to the art of creating complex search engine queries by employing advanced Google operators to extract sensitive or hidden information about a target company from the Google search results.
 
@@ -33,7 +33,7 @@ Steps:
 
 
 
-Task 2: Gather Information from Video Search Engines
+## **Task 2: Gather Information from Video Search Engines**
 
 Here, we will perform an advanced video search and reverse image search using the YouTube search engine and YouTube Metadata tool.
 
@@ -62,7 +62,7 @@ Steps:
 
 
 
-Task 3: Gather Information from FTP Search Engines
+## **Task 3: Gather Information from FTP Search Engines**
 
 File Transfer Protocol (FTP) search engines are used to search for files located on the FTP servers; these files may hold valuable information about the target organization. Many industries, institutions, companies, and universities use FTP servers to keep large file archives.
 
@@ -83,7 +83,7 @@ Steps:
 
 
 
-Task 4: Gather Information from IoT Search Engines
+## **Task 4: Gather Information from IoT Search Engines**
 
 IoT search engines crawl the Internet for IoT devices that are publicly accessible. These search engines provide crucial information, including control of SCADA systems, traffic control systems, CCTV cameras, etc.
 
