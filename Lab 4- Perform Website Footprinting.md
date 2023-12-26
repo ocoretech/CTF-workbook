@@ -7,7 +7,7 @@ Steps:
 
 1. Turn on Kali linux, open the terminal which is at the top left corner of the desktop to open a terminal window. 
 
-2. Open Photon and type photos -u http://www.certifiedhacker.comand press enter to crawl the target website for internal, external and scripts URLs.
+2. Open Photon and type photon -u http://www.certifiedhacker.comand press enter to crawl the target website for internal, external and scripts URLs.
 
 3. The results obtained are saved in www.certifiedhacker.com directory under Photon folder.
 
